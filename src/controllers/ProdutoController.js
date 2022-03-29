@@ -11,15 +11,8 @@ const getAll = async (req, res) => {
 	}
 };
 
-const create = (req, res) => {
-	try {
-		res.render('cadastro');
-	} catch (err) {
-		res.status(500).send({ err: err.message });
-	}
-};
 
 module.exports = {
 	getAll,
-	create,
+
 };
