@@ -3,8 +3,7 @@
 const Sequelize = require('sequelize');
 const connection = require('../database/db');
 
-const Produto = connection.define(
-	'produto',
+const Produto = connection.define('produto',
 	{
 		id: {
 			type: Sequelize.INTEGER,

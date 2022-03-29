@@ -5,4 +5,5 @@ const ProdutoController = require('../controllers/ProdutoController')
 
 routes.get('/', ProdutoController.getAll)
 
+
 module.exports = routes;
