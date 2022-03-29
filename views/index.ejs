@@ -9,14 +9,23 @@
 <body>
     <header>
         <h1>
-            PROJETO 3 AIR JORDAN
+            lojinha
         </h1>
+        <nav>
+            <ul>
+                <li><a href="/cadastro">Adicionar Jordan</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <% estoque.forEach((Produto) => { %>
-       <h2> <% Produto.preco %> </h2>
+        <% estoque.forEach((produto)=> { %>
+        <section class="card">
+            <p><%=produto.nome%></p>
+            <img src="<%=produto.imagem1%>" alt="tenis">
+            <p><%=produto.preco%></p>
+            <a href="/detalhes">Saiba mais</a>
+        </section>
         <% }); %>
-
     </main>
 </body>
 </html>

@@ -1,7 +1,7 @@
 /** @format */
 
 const Sequelize = require('sequelize');
-const connection = require('../database/db');
+const connection = require('../database/db.js');
 
 const Produto = connection.define('produto',
 	{
