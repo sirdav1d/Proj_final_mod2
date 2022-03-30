@@ -43,9 +43,18 @@ nav a{
     margin-top: 4rem;
     border-radius: 0.2rem;
     box-shadow: 3px 7px 23px -6px rgba(0,0,0,0.20);
-    transition: all 1s ease;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.459);
+    transition: all .5s ease-in-out;
+    text-shadow: 2px 2px 6px rgba(48, 48, 48, 0.329);
 
+}
+
+
+nav a:hover {
+
+    text-decoration: none;
+    background-color: #00DBC5;
+    color: #505751;
+    font-weight: bolder;
 }
 
 nav img{
@@ -54,12 +63,7 @@ nav img{
     padding-right: 2rem;
 }
 
-nav a:hover{
-    transition: 0.5s;
-    text-decoration: none;
-    background-color: #00DBC5;
-    color: #505751;
-}
+
 
 #btnCadastrar{
     padding: 2rem;
@@ -84,7 +88,7 @@ main{
     background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    background-color: #00000044;
+    background-color: #00000086;
 
 }
 
@@ -109,7 +113,7 @@ section.card div#card{
 		inset 1px -1px 4px rgba(0, 0, 0, 0.514);
 	padding: 1vmax;
 	background-color: rgb(255, 255, 255, 0.1);
-	backdrop-filter: blur(12px);
+	backdrop-filter: blur(8px);
 	border: 1px rgb(255, 255, 255,0.1) solid;
 	border-radius: 1vmax;
     color: antiquewhite;
