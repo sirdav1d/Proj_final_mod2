@@ -79,11 +79,13 @@ nav a:hover{
 }
 
 main{
-    background-image: url(https://www.teahub.io/photos/full/165-1657053_basquete-wallpaper-para-pc.jpg);
+
+    background-size: cover;
+    background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
     background-repeat: no-repeat;
     background-blend-mode: darken;
     background-color: #00000044;
-    z-index: 1;
+
 }
 
 section.card{
@@ -91,7 +93,7 @@ section.card{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10vmax 20vmax;
+    margin: 15vmax 20vmax 5vmax 20vmax;
 
 }
 
@@ -112,7 +114,8 @@ section.card div#card{
 	border-radius: 1vmax;
     color: antiquewhite;
     transition: all .8s ease;
-    z-index: 8888;
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.63);
+  
 }
 
 section.card div#card:hover{
