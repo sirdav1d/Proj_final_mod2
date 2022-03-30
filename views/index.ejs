@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto3</title>
+    <title>MeuSneaker.com</title>
+    <link rel="shortcut icon" href="../assets/media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-        <h1>
-            lojinha
-        </h1>
-        <nav>
-            <ul>
-                <li><a href="/cadastro">Adicionar Jordan</a></li>
-            </ul>
-        </nav>
+        <nav class="navBar">
+           <img src="../assets/media/logo-home.jfif" alt="logo">
+            <div class="btn">
+                <a href="">Meus Sneakers</a>
+                <a href="">TOP10 da Semana</a>
+                <a href="">Lançamentos</a>
+                <a id="btnCadastrar" href="/cadastro">CADASTRAR</a>
+            </div>
     </header>
     <main>
-        <% estoque.forEach((produto)=> { %>
         <section class="card">
-            <p><%=produto.nome%></p>
-            <img src="<%=produto.imagem1%>" alt="tenis">
-            <p><%=produto.preco%></p>
-            <a href="/detalhes">Saiba mais</a>
+            <% estoque.forEach((produto)=> { %>
+            <div id="card">
+                <p><%=produto.nome%></p>
+                <img src="<%=produto.imagem1%>" alt="tenis">
+                <div id ="rank">
+                    <img src="https://img.icons8.com/fluency/48/000000/star.png"/>
+                    <p><%=produto.nota%></p>
+                </div>
+                <p><%=produto.uso%></p>
+                <a href="/detalhes">Saiba mais</a>
+            </div>
+             <% }); %>
         </section>
-        <% }); %>
+       
     </main>
     <footer>
         <p>Todos os direitos reservados &copy; - David - Micael - Felipe - Carlos </p>
