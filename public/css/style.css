@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+     z-index: 9999;
+}
+
+nav{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    background-color: #204E7D;
+    height: 8rem;
+   
+}
+
+nav a{
+    font-family: Montserrat;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: #505751;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 4rem;
+    border-radius: 0.2rem;
+    box-shadow: 3px 7px 23px -6px rgba(0,0,0,0.20);
+    transition: all .5s ease-in-out;
+    text-shadow: 2px 2px 6px rgba(48, 48, 48, 0.329);
+
+}
+
+
+nav a:hover {
+
+    text-decoration: none;
+    background-color: #00DBC5;
+    color: #505751;
+    font-weight: bolder;
+}
+
+nav img{
+    width: 15%;
+    transform: translateY(25%);
+    padding-right: 2rem;
+}
+
+
+
+#btnCadastrar{
+    padding: 2rem;
+    margin: 2rem;
+    text-decoration: none;
+    background-color: #D3E600;
+    color: #ffffff;
+    border-radius: 0.7rem;
+    transform: translateY(25%);
+}
+
+#btnCadastrar:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: #00DBC5;
+    color: #505751;
+}
+
+main{
+
+    background-size: cover;
+    background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: #00000086;
+
+}
+
+section.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15vmax 20vmax 5vmax 20vmax;
+
+}
+
+section.card div#card{
+    height: 15vmax;
+    width: 10vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 3vmax;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
+		inset 1px -1px 4px rgba(0, 0, 0, 0.514);
+	padding: 1vmax;
+	background-color: rgb(255, 255, 255, 0.1);
+	backdrop-filter: blur(8px);
+	border: 1px rgb(255, 255, 255,0.1) solid;
+	border-radius: 1vmax;
+    color: antiquewhite;
+    transition: all .8s ease;
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.63);
+  
+}
+
+section.card div#card:hover{
+	transform: translateY(-1.5vmax);
+}
+
+section.card div#card img{
+    height: 8vmax;
+}
+
+section.card div#rank{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section.card div#rank img{
+    height: 1.2vmax;
+}
+
+
+
+footer{
+    bottom: 0px;
+    text-align: center;
+    padding: .1vmax;
+
+}
