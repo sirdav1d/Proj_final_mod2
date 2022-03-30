@@ -11,16 +11,16 @@ const getAll = async (req, res) => {
 	}
 };
 
-const create = (req, res) => {
+const rota_cad = (req, res) => {
 	res.render('cadastro');
 };
 
-const show = (req, res) => {
+const rota_det = (req, res) => {
 	res.render('detalhes');
 };
 
 module.exports = {
 	getAll,
-	create,
-	show,
+	rota_cad,
+	rota_det,
 };
