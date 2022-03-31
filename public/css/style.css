@@ -12,12 +12,22 @@
     padding: 0;
     border: 0;
     font-family: Montserrat, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+}
+
+:root {
+    --colorBluedark: #204e7d;
+    --colorGreen: #d3e600;
+    --colorWhite: #f7fee6;
+    --colorBluelight: #00dbc5;
+    --colorBlacksmooth: #505751;
+    
 }
 
 header{
@@ -28,7 +38,7 @@ nav{
     display: flex;
     align-items:flex-end;
     justify-content: center;
-    background-color: #204E7D;
+    background-color: var(--colorBluedark);
     height: 8rem;
    
 }
@@ -37,24 +47,25 @@ nav a{
     font-family: Montserrat;
     text-decoration: none;
     background-color: rgb(255, 255, 255);
-    color: #505751;
+    color: var(--colorBlacksmooth);
     padding: 1rem;
     margin: 1rem;
     margin-top: 4rem;
     border-radius: 0.2rem;
-    box-shadow: 3px 7px 23px -6px rgba(0,0,0,0.20);
-    transition: all .5s ease-in-out;
-    text-shadow: 2px 2px 6px rgba(48, 48, 48, 0.329);
+    box-shadow: 3px 7px 23px -6px var(--colorBlacksmooth);
+    text-shadow: 1px 1px 4px var(--colorBlacksmooth);
+    transition: all .5s 1ms ease;
+    
 
 }
 
 
 nav a:hover {
-
+    transition: all .5s 1ms ease;
     text-decoration: none;
-    background-color: #00DBC5;
-    color: #505751;
-    font-weight: bolder;
+    background-color: var(--colorBluelight);
+    color: var(--colorBlacksmooth);
+    font-weight:900;
 }
 
 nav img{
@@ -69,8 +80,8 @@ nav img{
     padding: 2rem;
     margin: 2rem;
     text-decoration: none;
-    background-color: #D3E600;
-    color: #ffffff;
+    background-color: var(--colorGreen);
+    color: var(--colorWhite);
     border-radius: 0.7rem;
     transform: translateY(25%);
 }
@@ -78,8 +89,9 @@ nav img{
 #btnCadastrar:hover{
     transition: 0.5s;
     text-decoration: none;
-    background-color: #00DBC5;
-    color: #505751;
+    background-color: var(--colorBluelight);
+    color: var(--colorBlacksmooth);
+    font-weight: 900;
 }
 
 main{
@@ -116,7 +128,7 @@ section.card div#card{
 	backdrop-filter: blur(8px);
 	border: 1px rgb(255, 255, 255,0.1) solid;
 	border-radius: 1vmax;
-    color: antiquewhite;
+    color: var(--colorWhite);
     transition: all .8s ease;
     text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.63);
   
@@ -145,6 +157,6 @@ section.card div#rank img{
 footer{
     bottom: 0px;
     text-align: center;
-    padding: .1vmax;
+    padding: 1vmax;
 
 }

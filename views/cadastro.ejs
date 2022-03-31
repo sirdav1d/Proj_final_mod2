@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MeuSneaker.com</title>
     <link rel="shortcut icon" href="../assets/media/icons8-tennis-96.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
 </head>
 <body>
     <header>
@@ -19,6 +19,45 @@
                 <a id="btnCadastrar" href="/cadastro">CADASTRAR</a>
             </div>
     </header>
+    <main>
+        <section class="container_pag_cadastro">
+        
+
+                <form id="container_formulario" action="">
+
+                    <h2>Cadastre seu Jordan</h2>
+
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o nome do produto:" required>
+
+                    <label for="nota">Nota: </label>
+                    <input type="text" name="nota" id="nota" placeholder="Dê uma nota de 1 a 5:" required>                
+
+                    <label for="uso">Uso: </label>
+                    <input type="text" name="uso" id="uso" placeholder="Informe o tipo de uso:" required>
+
+                    <label for="descricao">Descrição: </label>
+                    <input type="text" name="descricao" id="descricao" placeholder="Informe a descrição do pruduto" required>
+
+                    <label for="material">Material: </label>
+                    <input type="text" name="material" id="material" placeholder="Informe o material do pruduto" required>
+
+                    <label for="Imagem1">Imagem1: </label>
+                    <input type="text" name="Imagem1" id="Imagem1" placeholder="Digite URL da imagem1:" required>
+
+                    <label for="Imagem2">Imagem2:</label>
+                    <input type="text" name="Imagem2" id="Imagem2" placeholder="Digite URL da imagem2:" required>
+
+                    <label for="Imagem3">Imagem3:</label>
+                    <input type="text" name="Imagem3" id="Imagem3" placeholder="Digite URL da imagem3:" required>
+
+                    <div id="bt_div">
+                        <button id="bt" type="submit">Salvar</button>
+                        <button id="bt" type="reset">Apagar</button>
+                    </div>
+                </form>
+        </section>
+    </main>
     <footer>
         <p>Todos os direitos reservados &copy; - David - Micael - Felipe - Carlos </p>
     </footer>
