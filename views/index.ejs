@@ -13,7 +13,7 @@
         <nav class="navBar">
            <img src="../assets/media/logo-home.jfif" alt="logo">
             <div class="btn">
-                <a href="">Meus Sneakers</a>
+                <a href="/">Meus Sneakers</a>
                 <a href="">TOP10 da Semana</a>
                 <a href="">Lançamentos</a>
                 <a id="btnCadastrar" href="/cadastro">CADASTRAR</a>
@@ -23,21 +23,30 @@
         <section class="card">
             <% estoque.forEach((produto)=> { %>
             <div id="card">
+                <img id="tenis" src="<%=produto.imagem1%>" alt="tenis">
                 <p><%=produto.nome%></p>
-                <img src="<%=produto.imagem1%>" alt="tenis">
+
                 <div id ="rank">
                     <img src="https://img.icons8.com/fluency/48/000000/star.png"/>
                     <p><%=produto.nota%></p>
                 </div>
+
                 <p><%=produto.uso%></p>
-                <a href="/detalhes">Saiba mais</a>
-                <a href="/update">Editar</a>
-                <a href="/delete">Apagar</a>
+
+                <div id="links">
+                    <a href="/detalhes/<%=produto.id%>">Saiba mais</a>
+                    <a href="/getById/<%=produto.id%>/put">Editar</a>
+                    <a href="/getById/<%=produto.id%>/delete">Apagar</a>
+                </div>
+                
             </div>
              <% }); %>
         </section>
-       
     </main>
+    
+<% if(produtoPut===null){%>
+<%- include('./components/modalUp.ejs') %>
+<%}%>
     <footer>
         <p>Todos os direitos reservados &copy; - David - Micael - Felipe - Carlos </p>
     </footer>

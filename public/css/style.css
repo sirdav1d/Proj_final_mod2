@@ -40,6 +40,8 @@ nav{
     justify-content: center;
     background-color: var(--colorBluedark);
     height: 8rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
+    inset 1px -1px 4px rgba(0, 0, 0, 0.514)
    
 }
 
@@ -52,7 +54,8 @@ nav a{
     margin: 1rem;
     margin-top: 4rem;
     border-radius: 0.2rem;
-    box-shadow: 3px 7px 23px -6px var(--colorBlacksmooth);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
+    inset 1px -1px 4px rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 4px var(--colorBlacksmooth);
     transition: all .5s 1ms ease;
     
@@ -110,6 +113,7 @@ section.card{
     flex-wrap: wrap;
     justify-content: center;
     margin: 15vmax 20vmax 5vmax 20vmax;
+    
 
 }
 
@@ -120,7 +124,7 @@ section.card div#card{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 3vmax;
+    margin: 1vmax 3vmax;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
 		inset 1px -1px 4px rgba(0, 0, 0, 0.514);
 	padding: 1vmax;
@@ -131,16 +135,30 @@ section.card div#card{
     color: var(--colorWhite);
     transition: all .8s ease;
     text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.63);
+    font-weight: 400;
   
 }
 
 section.card div#card:hover{
-	transform: translateY(-1.5vmax);
+	transform: translateY(-1.2vmax);
 }
 
-section.card div#card img{
-    height: 8vmax;
+section.card div#card img#tenis{
+    height: 6vmax;
+    transition: all .8s;
 }
+section.card div#card img#tenis:hover{
+    height: 8vmax;
+    animation: 1ms rotation forwards;
+}
+
+
+@keyframes rotation {
+    to{
+        transform: translateY(-1.2vmax) rotatey(-185deg);
+}
+}
+
 
 section.card div#rank{
     display: flex;
@@ -152,7 +170,32 @@ section.card div#rank img{
     height: 1.2vmax;
 }
 
+section.card div#card p{
+    font-size: 1.1vmax;
+    text-align: center;
+}
 
+section.card div#links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    border: #00dbc5 2px solid;
+   
+}
+
+
+section.card div#links a{
+    text-decoration: none;
+    color: var(--colorWhite);
+    padding: .15vmax;
+    transition: all .8s;
+    font-weight: 900;
+}
+
+section.card div#links a:hover{
+    color: var(--colorBluelight);
+}
 
 footer{
     bottom: 0px;

@@ -151,7 +151,7 @@ section.container_pag_cadastro form#container_formulario label {
 }
 
 form#container_formulario input {
-    background-color: #ffffff;
+    background-color: #ffffff8e;
     border: 1px solid var(--colorBluedark);
     border-radius: .5vmax;
     padding: .2vmax;
@@ -173,8 +173,7 @@ form#container_formulario input {
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     font-size: 1.2vmax;
-    border-radius: .5vmax;
-    border: 2px solid var(--colorBluedark);
+    border-radius: .2vmax;
     margin-top: 1vmax;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
     inset 2px -2px 5px rgb(0, 0, 0);

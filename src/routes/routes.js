@@ -7,6 +7,12 @@ routes.get('/', ProdutoController.getAll);
 
 routes.get('/cadastro', ProdutoController.rota_cad);
 
-routes.get('/detalhes', ProdutoController.rota_det);
+routes.get('/detalhes/:id', ProdutoController.rota_det);
+
+routes.post('/create', ProdutoController.create);
+
+routes.get('/getById/:id/:method', ProdutoController.getById);
+
+routes.post('/update/:id', ProdutoController.update);
 
 module.exports = routes;
