@@ -1,5 +1,3 @@
-/** @format */
-
 const routes = require('express').Router();
 const ProdutoController = require('../controllers/ProdutoController.js');
 
@@ -11,7 +9,7 @@ routes.get('/detalhes/:id', ProdutoController.rota_det);
 
 routes.post('/create', ProdutoController.create);
 
-routes.get('/getById/:id/:method', ProdutoController.getById);
+routes.get("/getById/:id/:method", ProdutoController.getById);
 
 routes.post('/update/:id', ProdutoController.update);
 

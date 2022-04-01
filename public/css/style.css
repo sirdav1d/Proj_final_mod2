@@ -6,6 +6,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root {
+    --colorBluedark: #204e7d;
+    --colorGreen: #d3e600;
+    --colorWhite: #f7fee6;
+    --colorBluelight: #00dbc5;
+    --colorBlacksmooth: #505751;
+
+}
 
 *{
     margin: 0;
@@ -19,15 +27,6 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-}
-
-:root {
-    --colorBluedark: #204e7d;
-    --colorGreen: #d3e600;
-    --colorWhite: #f7fee6;
-    --colorBluelight: #00dbc5;
-    --colorBlacksmooth: #505751;
-    
 }
 
 header{
@@ -79,7 +78,7 @@ nav img{
 
 
 
-#btnCadastrar{
+nav #btnCadastrar{
     padding: 2rem;
     margin: 2rem;
     text-decoration: none;
@@ -89,7 +88,7 @@ nav img{
     transform: translateY(25%);
 }
 
-#btnCadastrar:hover{
+nav #btnCadastrar:hover{
     transition: 0.5s;
     text-decoration: none;
     background-color: var(--colorBluelight);
@@ -107,7 +106,7 @@ main{
 
 }
 
-section.card{
+main section.card{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -117,7 +116,7 @@ section.card{
 
 }
 
-section.card div#card{
+main section.card div#card{
     height: 15vmax;
     width: 10vmax;
     display: flex;
@@ -139,15 +138,15 @@ section.card div#card{
   
 }
 
-section.card div#card:hover{
+main section.card div#card:hover{
 	transform: translateY(-1.2vmax);
 }
 
-section.card div#card img#tenis{
+main section.card div#card img#tenis{
     height: 6vmax;
     transition: all .8s;
 }
-section.card div#card img#tenis:hover{
+main section.card div#card img#tenis:hover{
     height: 8vmax;
     animation: 1ms rotation forwards;
 }
@@ -160,22 +159,22 @@ section.card div#card img#tenis:hover{
 }
 
 
-section.card div#rank{
+main section.card div#rank{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-section.card div#rank img{
+main section.card div#rank img{
     height: 1.2vmax;
 }
 
-section.card div#card p{
+main section.card div#card p{
     font-size: 1.1vmax;
     text-align: center;
 }
 
-section.card div#links {
+main section.card div#links {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,7 +184,7 @@ section.card div#links {
 }
 
 
-section.card div#links a{
+main section.card div#links a{
     text-decoration: none;
     color: var(--colorWhite);
     padding: .15vmax;
@@ -193,87 +192,11 @@ section.card div#links a{
     font-weight: 900;
 }
 
-section.card div#links a:hover{
+main section.card div#links a:hover{
     color: var(--colorBluelight);
 }
 
-section.container_pag_cadastro form#container_formulario {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 1.5vmax;
-    height: 32vmax;
-    width: 25vmax;
-    margin: 3vmax 0;
-    border-radius: 1vmax;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px rgba(255, 255, 255, 0.1) solid;
-    border-radius: 1vmax;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
-        inset 1px -1px 4px rgba(0, 0, 0, 0.514)
-}
-
-section.container_pag_cadastro form#container_formulario h2 {
-    text-align: center;
-    font-weight: 900;
-    color: var(--colorWhite);
-    font-size: 1.5vmax;
-
-}
-
-section.container_pag_cadastro form#container_formulario label {
-
-    color: var(--colorGreen);
-    font-size: 1vmax;
-    font-weight: 900;
-    margin-top: .5vmax;
-}
-
-form#container_formulario input {
-    background-color: #ffffff8e;
-    border: 1px solid var(--colorBluedark);
-    border-radius: .5vmax;
-    padding: .2vmax;
-    font-size: 1.1vmax;
-    outline-style: none;
-}
-
-#bt_div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-#bt {
-    width: 8vmax;
-    height: 2.5vmax;
-    color: var(--colorBluedark);
-    background-color: var(--colorWhite);
-    font-family: Montserrat, sans-serif;
-    font-weight: 400;
-    font-size: 1.2vmax;
-    border-radius: .2vmax;
-    margin-top: 1vmax;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
-        inset 2px -2px 5px rgb(0, 0, 0);
-    text-shadow: 1px 1px 2px black;
-    transition: all .6s ease;
-
-}
-
-#bt:hover {
-    color: var(--colorWhite);
-    background-color: var(--colorBluelight);
-    font-weight: 900;
-}
-
-
-
-
-
-.overlay{
+section.overlay {
     background-color: rgba(0, 0, 0, 0.411);
     width: 100vw;
     height: 100vh;
@@ -288,7 +211,7 @@ form#container_formulario input {
 
 }
 
-.modal{
+section.overlay div.modal {
     margin: 2vmax;
     width: 100%;
     max-width: 600px;
@@ -301,22 +224,22 @@ form#container_formulario input {
     overflow: hidden;
 }
 
-.modal-header{
+section.overlay div.modal div.modal-header {
     display: flex;
     justify-content: space-between;
     background-color: var(--colorBluedark);
     padding: 1vmax;
     color: var(--colorWhite);
-    
+
 }
 
-.modal-header a#modal-close{
+section.overlay div.modal div.modal-header a#modal-close {
     font-size: 1.5vmax;
     text-decoration: none;
     color: var(--colorWhite);
 }
 
-.modal-body{
+section.overlay div.modal div.modal-body {
     padding: 1vmax 2vmax;
     flex: 1;
     display: flex;
@@ -324,12 +247,12 @@ form#container_formulario input {
     flex-wrap: wrap;
 }
 
-.modal-form{
+section.overlay div.modal div.modal-body form.modal-form {
     display: flex;
     flex-wrap: wrap;
 }
 
-.modal-form input{
+section.overlay div.modal div.modal-body form.modal-form input {
     width: 100%;
     padding: .4vmax;
     outline: none;
@@ -338,25 +261,25 @@ form#container_formulario input {
     border-radius: .5vmax;
 }
 
-.modal-form label{
+section.overlay div.modal div.modal-body form.modal-form label {
     color: var(--colorBlacksmooth);
     padding-top: .5vmax;
     font-weight: 900;
 }
 
-.modal-form button#modal-btn{
+section.overlay div.modal div.modal-body form.modal-form button#modal-btn {
     width: 8vmax;
     height: 2.5vmax;
     color: var(--colorBluedark);
     background-color: var(--colorWhite);
     font-family: Montserrat,
-    sans-serif;
+        sans-serif;
     font-weight: 400;
     font-size: 1.2vmax;
     border-radius: .2vmax;
     margin-top: 1vmax;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
-    inset 2px -2px 5px rgb(0, 0, 0);
+        inset 2px -2px 4px rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 2px black;
     transition: all .6s ease;
     display: flex;
@@ -366,12 +289,11 @@ form#container_formulario input {
 
 }
 
-.modal-form button#modal-btn:hover{
+section.overlay div.modal div.modal-body form.modal-form button#modal-btn:hover {
     color: var(--colorWhite);
     background-color: var(--colorBluelight);
     font-weight: 900;
 }
-
 
 footer {
     bottom: 0px;

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeuSneaker.com</title>
     <link rel="shortcut icon" href="../assets/media/icons8-tennis-96.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href= "../css/style.css">
+    <title>MeuSneaker.com</title>
 </head>
 <body>
     <header>
@@ -20,9 +20,9 @@
             </div>
     </header>
     <main>
-       
         <section class="card">
 <% estoque.forEach((produto)=> { %>
+
             <div id="card">
                 <img id="tenis" src="<%=produto.imagem1%>" alt="tenis">
                 <p><%=produto.nome%></p>
@@ -37,19 +37,17 @@
                 <div id="links">
                     <a href="/detalhes/<%=produto.id%>">Saiba mais</a>
 
-                    <a href="/getById/<%=produto.id%>/put">Editar</a>
+                    <a href="/getById/<%= produto.id %>/put">Editar</a>
 
                     <a href="/getById/<%=produto.id%>/delete">Apagar</a>
                 </div>
             </div>
 <% }); %>
         </section>
-    <% if(produtoPut!=null){%>
-        <%- include('./components/modalUp.ejs') %>
-            <%}%>
     </main>
-
-
+    <% if(produtoPut!=null){%>
+        <%- include("./components/modalUp.ejs") %>
+            <% } %>
     <footer>
         <p>Todos os direitos reservados &copy; - David - Micael - Felipe - Carlos </p>
     </footer>
