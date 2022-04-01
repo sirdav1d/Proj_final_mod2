@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sirdav1d/mod2_MVC.git"
+    "url": "git+https://github.com/sirdav1d/Proj_final_mod2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sirdav1d/mod2_MVC/issues"
+    "url": "https://github.com/sirdav1d/Proj_final_mod2/issues"
   },
-  "homepage": "https://github.com/sirdav1d/mod2_MVC#readme",
+  "homepage": "https://github.com/sirdav1d/Proj_final_mod2#readme",
   "devDependencies": {
     "nodemon": "^2.0.15"
   },
