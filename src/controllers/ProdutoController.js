@@ -55,13 +55,13 @@ const getById = async (req, res) => {
 		const estoque = await Produto.findAll();
 		const produto = await Produto.findByPk(req.params.id);
 		if (method == 'put') {
-			res.render('index.ejs', {
+			res.render('index', {
 				estoque,
 				produtoPut: produto,
 				produtoDel: null,
 			});
 		} else {
-			res.render('index.ejs', {
+			res.render('index', {
 				estoque,
 				produtoPut: null,
 				produtoDel: produto,
