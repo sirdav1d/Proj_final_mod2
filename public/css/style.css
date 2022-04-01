@@ -233,10 +233,8 @@ section.overlay div.modal div.modal-header {
 
 }
 
-section.overlay div.modal div.modal-header a#modal-close {
-    font-size: 1.5vmax;
-    text-decoration: none;
-    color: var(--colorWhite);
+section.overlay div.modal div.modal-header a#modal-close img{
+    height: 1.5vmax;
 }
 
 section.overlay div.modal div.modal-body {
@@ -292,6 +290,55 @@ section.overlay div.modal div.modal-body form.modal-form button#modal-btn {
 section.overlay div.modal div.modal-body form.modal-form button#modal-btn:hover {
     color: var(--colorWhite);
     background-color: var(--colorBluelight);
+    font-weight: 900;
+}
+
+section.overlay div.modal div.modal-body p{
+    width: 100%;
+    font-size: 1.2vmax;
+    text-align: center;
+}
+
+div#btns-del{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+section.overlay div.modal div.modal-body div#btns-del a{
+    width: 8vmax;
+    height: 2.5vmax;
+    color: var(--colorBluedark);
+    background-color: var(--colorWhite);
+    font-family: Montserrat,
+    sans-serif;
+    font-weight: 400;
+    font-size: 1.2vmax;
+    border-radius: .2vmax;
+    margin-top: 1vmax;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
+    inset 2px -2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    transition: all .6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4vmax .5vmax 0vmax .5vmax;
+   
+}
+
+section.overlay div.modal div.modal-body div#btns-del a#yes:hover{
+    color: var(--colorWhite);
+    background-color: var(--colorBluelight);
+    font-weight: 900;
+}
+
+section.overlay div.modal div.modal-body div#btns-del a#no:hover {
+    color: var(--colorWhite);
+    background-color: rgb(231, 54, 54);
     font-weight: 900;
 }
 

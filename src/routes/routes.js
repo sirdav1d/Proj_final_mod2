@@ -13,4 +13,8 @@ routes.get("/getById/:id/:method", ProdutoController.getById);
 
 routes.post('/update/:id', ProdutoController.update);
 
+routes.get('/remove/:id/', ProdutoController.remove);
+
+
+
 module.exports = routes;

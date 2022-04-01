@@ -5,26 +5,34 @@
     <div class="modal">
         <div class="modal-header">
             <h3>Atualize seu Jordan</h3>
-            <a href="/" id="modal-close">X</a>
+            <a href="/" id="modal-close"><img src="https://img.icons8.com/fluency/48/000000/delete-sign.png" /></a>
         </div>
         <div class="modal-body">
-            <form class ="modal-form" action="/update/<produtoPut.id%>" method="POST">
+            <form class ="modal-form" action="/update/<%=produtoPut.id%>" method="POST">
                 <label for="nome">Nome: </label>
-                <input type="text" name="nome" id="nome" value="=produtoPut.nome%>" required>           
+                <input type="text" name="nome" id="nome" value="<%=produtoPut.nome%>" required>   
+
                 <label for="nota">Nota: </label>
-                <input type="text" name="nota" id="nota" value="=produtoPut.nota%>" required>     
+                <input type="text" name="nota" id="nota" value="<%=produtoPut.nota%>" required> 
+
                 <label for="uso">Uso: </label>
-                <input type="text" name="uso" id="uso" value="=produtoPut.uso%>" required>           
+                <input type="text" name="uso" id="uso" value="<%=produtoPut.uso%>" required>  
+
                 <label for="descricao">Descrição: </label>
-                <input type="text" name="descricao" id="descricao" value="=produtoPut.descricao%>" required>          
+                <input type="text" name="descricao" id="descricao" value="<%=produtoPut.descricao%>" required> 
+
                 <label for="material">Material: </label>
-                <input type="text" name="material" id="material" value="=produtoPut.material%>" required>          
+                <input type="text" name="material" id="material" value="<%=produtoPut.material%>" required>
+
                 <label for="imagem1">Imagem1: </label>
-                <input type="text" name="imagem1" id="Imagem1" value="=produtoPut.imagem1%>" required>         
+                <input type="text" name="imagem1" id="Imagem1" value="<%=produtoPut.imagem1%>" required> 
+
                 <label for="Imagem2">Imagem2:</label>
-                <input type="text" name="imagem2" id="imagem2" value="=produtoPut.imagem2%>" required>          
+                <input type="text" name="imagem2" id="imagem2" value="<%=produtoPut.imagem2%>" required> 
+
                 <label for="imagem3">Imagem3:</label>
-                <input type="text" name="imagem3" id="imagem3" value="=produtoPut.imagem3%>" required>
+                <input type="text" name="imagem3" id="imagem3" value="<%=produtoPut.imagem3%>" required>
+                
                 <button id="modal-btn" type="submit">Atualizar</button>
             </form>
         </div>

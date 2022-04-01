@@ -51,4 +51,10 @@ const Produto = connection.define('produto',
 	updatedAt: false,
 });
 
+const initTable = async () => {
+	await Produto.sync();
+};
+
+initTable();
+
 module.exports = Produto;

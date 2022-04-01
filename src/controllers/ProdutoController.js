@@ -1,3 +1,5 @@
+/** @format */
+
 const res = require('express/lib/response');
 const Produto = require('../models/produto');
 
@@ -80,6 +82,15 @@ const update = async (req, res) => {
 	}
 };
 
+const remove = async (req, res) => {
+	try {
+		await Produto.destroy({ where: { id: req.params.id } });
+		res.redirect('/');
+	} catch (err) {
+		res.status(500).send({ err: err.message });
+	}
+};
+
 module.exports = {
 	getAll,
 	rota_cad,
@@ -87,4 +98,5 @@ module.exports = {
 	create,
 	getById,
 	update,
+	remove,
 };

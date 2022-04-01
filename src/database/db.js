@@ -1,4 +1,4 @@
-/** @format */
+
 
 const Sequelize = require('sequelize');
 
@@ -11,6 +11,7 @@ const connection = new Sequelize(
 		port: 5432,
 		dialect: 'postgres',
 	},
+	
 );
 
 module.exports = connection;

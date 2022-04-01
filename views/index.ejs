@@ -46,7 +46,11 @@
         </section>
     </main>
     <% if(produtoPut!=null){%>
-        <%- include("./components/modalUp.ejs") %>
+        <%- include("./components/modalUp") %>
+            <% } %>
+
+    <% if(produtoDel!=null){%>
+        <%- include("./components/modalDel") %>
             <% } %>
     <footer>
         <p>Todos os direitos reservados &copy; - David - Micael - Felipe - Carlos </p>
