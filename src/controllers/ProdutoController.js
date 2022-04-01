@@ -9,7 +9,7 @@ const getAll = async (req, res) => {
 			estoque,
 			produto: undefined,
 			produtoPut: null,
-			produtoDel: null,
+			produtoDel: null
 		});
 	} catch (err) {
 		res.status(500).send({ err: err.message });
@@ -56,16 +56,17 @@ const getById = async (req, res) => {
 		const produto = await Produto.findByPk(req.params.id);
 
 		if (method == 'put') {
+
 			res.render('index', {
 				estoque,
 				produtoPut: produto,
-				produtoDel: null,
+				produtoDel: null
 			});
 		} else {
 			res.render('index', {
 				estoque,
 				produtoPut: null,
-				produtoDel: produto,
+				produtoDel: produto
 			});
 		}
 	} catch (err) {

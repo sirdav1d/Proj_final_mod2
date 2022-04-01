@@ -20,8 +20,9 @@
             </div>
     </header>
     <main>
+       
         <section class="card">
-            <% estoque.forEach((produto)=> { %>
+<% estoque.forEach((produto)=> { %>
             <div id="card">
                 <img id="tenis" src="<%=produto.imagem1%>" alt="tenis">
                 <p><%=produto.nome%></p>
@@ -35,18 +36,20 @@
 
                 <div id="links">
                     <a href="/detalhes/<%=produto.id%>">Saiba mais</a>
+
                     <a href="/getById/<%=produto.id%>/put">Editar</a>
+
                     <a href="/getById/<%=produto.id%>/delete">Apagar</a>
                 </div>
-                
             </div>
-             <% }); %>
+<% }); %>
         </section>
+    <% if(produtoPut!=null){%>
+        <%- include('./components/modalUp.ejs') %>
+            <%}%>
     </main>
-    
-<% if(produtoPut===null){%>
-<%- include('./components/modalUp.ejs') %>
-<%}%>
+
+
     <footer>
         <p>Todos os direitos reservados &copy; - David - Micael - Felipe - Carlos </p>
     </footer>
