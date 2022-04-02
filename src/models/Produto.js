@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const connection = require('../database/db.js');
 
-const produtos = connection.define(
+const Produto = connection.define(
 	'produto', {
 	id: {
 		type: Sequelize.INTEGER,
@@ -51,4 +51,4 @@ const produtos = connection.define(
 );
 
 
-module.exports = produtos;
+module.exports = Produto;
