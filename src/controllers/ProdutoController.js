@@ -1,7 +1,7 @@
 /** @format */
 
 const res = require('express/lib/response');
-const Produto = require('/models/produto');
+const Produto = require('../models/produto.js');
 
 const getAll = async (req, res) => {
 	try {
