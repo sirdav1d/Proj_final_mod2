@@ -1,6 +1,6 @@
 /** @format */
 
-const Produto = require('../models/produto.js');
+const Produto = require("../models/produto");
 
 const getAll = async (req, res) => {
 	try {
