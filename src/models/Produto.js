@@ -51,7 +51,7 @@ const Produto = connection.define(
 );
 
 const initTable = async () => {
-	await Pokemon.sync();
+	await Produto.sync();
 };
 
 initTable();
