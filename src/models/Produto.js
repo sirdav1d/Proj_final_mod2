@@ -14,7 +14,7 @@ const Produto = connection.define(
 		allowNull: false,
 	},
 	nota: {
-		type: Sequelize.NUMBER,
+		type: Sequelize.NUMERIC,
 		allowNull: false,
 	},
 	descricao: {
