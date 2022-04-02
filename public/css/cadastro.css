@@ -165,7 +165,7 @@ form#container_formulario input {
     justify-content: space-evenly;
 }
 
-#bt {
+#bt-save {
     width: 8vmax;
     height: 2.5vmax;
     color: var(--colorBluedark);
@@ -182,15 +182,23 @@ form#container_formulario input {
   
 }
 
-#bt:hover{
-    color: var(--colorBlacksmooth);
+#bt-save:hover{
+    color: var(--colorWhite);
     background-color: var(--colorBluelight);
     font-weight: 900;
 }
 
-footer {
-    bottom: 0px;
-    text-align: center;
-    padding: .5vmax;
+#bt-del{
+color: var(--colorWhite);
+background-color: rgb(231, 54, 54);
+font-weight: 900;
+}
 
+footer {
+    display: flex;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax;
+    color: var(--colorWhite);
 }

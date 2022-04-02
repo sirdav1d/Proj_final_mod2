@@ -332,7 +332,8 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 footer {
     display: flex;
     bottom: 0px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 1vmax;
-
+    color: var(--colorWhite);
 }
