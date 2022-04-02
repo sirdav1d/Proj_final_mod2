@@ -50,11 +50,7 @@ const Produto = connection.define(
 	}
 );
 
-const initTable = async () => {
-	await Produto.sync();
-};
 
-initTable();
 
 
 module.exports = Produto;
