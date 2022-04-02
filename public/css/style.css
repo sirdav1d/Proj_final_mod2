@@ -142,8 +142,8 @@ main section.card div#card img#tenis{
     transition: all .8s;
 }
 main section.card div#card img#tenis:hover{
-    height: 6vmax;
-    transform: translateY(-1vmax);
+    height: 5vmax;
+    transform: translateY(-2vmax);
     
 }
 
@@ -337,4 +337,5 @@ footer {
     align-items: center;
     padding: 1vmax;
     color: var(--colorWhite);
+    background-color: var(--colorBluedark);
 }
