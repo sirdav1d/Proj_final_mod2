@@ -4,8 +4,7 @@ const Sequelize = require('sequelize');
 const connection = require('../database/db.js');
 
 const Produto = connection.define(
-	'produto', 
-{
+	'produto', {
 	id: {
 		type: Sequelize.INTEGER,
 		autoIncrement: true,
