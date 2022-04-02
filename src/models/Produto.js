@@ -3,7 +3,8 @@
 const Sequelize = require('sequelize');
 const connection = require('../database/db.js');
 
-const Produto = connection.define('produto', 
+const Produto = connection.define(
+	'produto', 
 {
 	id: {
 		type: Sequelize.INTEGER,
@@ -49,7 +50,8 @@ const Produto = connection.define('produto',
 	timestamps: false,
 	createdAt: false,
 	updatedAt: false,
-});
+	}
+);
 
 const initTable = async () => {
 	await Produto.sync();
