@@ -27,6 +27,11 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-size: cover;
+    background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: #00000086;
 }
 
 header{
@@ -96,15 +101,6 @@ nav #btnCadastrar:hover{
     font-weight: 900;
 }
 
-main{
-
-    background-size: cover;
-    background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    background-color: #00000086;
-
-}
 
 main section.card{
     display: flex;
@@ -112,6 +108,7 @@ main section.card{
     flex-wrap: wrap;
     justify-content: center;
     margin: 15vmax 20vmax 5vmax 20vmax;
+    min-height: 100%;
     
 
 }
@@ -138,9 +135,6 @@ main section.card div#card{
   
 }
 
-main section.card div#card:hover{
-	transform: translateY(-1.2vmax);
-}
 
 main section.card div#card img#tenis{
     height: 6vmax;
@@ -148,14 +142,7 @@ main section.card div#card img#tenis{
 }
 main section.card div#card img#tenis:hover{
     height: 8vmax;
-    animation: 1ms rotation forwards;
-}
-
-
-@keyframes rotation {
-    to{
-        transform: translateY(-1.2vmax) rotatey(-185deg);
-}
+    
 }
 
 
