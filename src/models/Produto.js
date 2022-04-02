@@ -22,7 +22,7 @@ const Produto = connection.define(
 		allowNull: false,
 	},
 	uso: {
-		type: Sequelize.INTEGER,
+		type: Sequelize.STRING,
 		allowNull: false,
 	},
 	material: {
