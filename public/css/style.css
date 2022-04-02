@@ -138,11 +138,12 @@ main section.card div#card{
 
 
 main section.card div#card img#tenis{
-    height: 6vmax;
+    height: 3vmax;
     transition: all .8s;
 }
 main section.card div#card img#tenis:hover{
-    height: 8vmax;
+    height: 6vmax;
+    transform: translateY(-1vmax);
     
 }
 

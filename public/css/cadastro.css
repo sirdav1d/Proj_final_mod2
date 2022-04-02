@@ -165,7 +165,7 @@ form#container_formulario input {
     justify-content: space-evenly;
 }
 
-#bt-save {
+.btn-cad {
     width: 8vmax;
     height: 2.5vmax;
     color: var(--colorBluedark);
@@ -188,7 +188,10 @@ form#container_formulario input {
     font-weight: 900;
 }
 
-#bt-del{
+
+
+
+#bt-del:hover{
 color: var(--colorWhite);
 background-color: rgb(231, 54, 54);
 font-weight: 900;
@@ -201,4 +204,5 @@ footer {
     align-items: center;
     padding: 1vmax;
     color: var(--colorWhite);
+    background-color: var(--colorBluedark);
 }
