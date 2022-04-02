@@ -1,9 +1,7 @@
-/** @format */
-
 const Sequelize = require('sequelize');
 const connection = require('../database/db.js');
 
-const Produto = connection.define(
+const Produtos = connection.define(
 	'produto', {
 	id: {
 		type: Sequelize.INTEGER,
@@ -53,4 +51,4 @@ const Produto = connection.define(
 );
 
 
-module.exports = Produto;
+module.exports = Produtos;
