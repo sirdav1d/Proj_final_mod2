@@ -24,6 +24,16 @@
 <% estoque.forEach((produto)=> { %>
 
             <div id="card">
+                <div class="drop-menu">
+                    <div class="drop-btn">
+                        <img src="https://img.icons8.com/plumpy/24/000000/menu-rounded.png" />
+                    </div>
+                    <div class="drop-content">
+                        <a href="/getById/<%=produto.id%>/put">Editar</a>
+                        
+                        <a href="/getById/<%=produto.id%>/delete">Apagar</a>
+                    </div>
+                </div>
                 <img id="tenis" src="<%=produto.imagem1%>" alt="tenis">
                 <p><%=produto.nome%></p>
 
@@ -36,10 +46,6 @@
 
                 <div id="links">
                     <a href="/detalhes/<%=produto.id%>">Saiba mais</a>
-
-                    <a href="/getById/<%=produto.id%>/put">Editar</a>
-
-                    <a href="/getById/<%=produto.id%>/delete">Apagar</a>
                 </div>
             </div>
 <% }); %>
