@@ -72,7 +72,7 @@ nav a:hover {
     transition: all .5s 1ms ease;
     text-decoration: none;
     background-color: var(--colorBluelight);
-    color: var(--colorBlacksmooth);
+    color: var(--colorWhite);
     font-weight:900;
 }
 
