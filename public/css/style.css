@@ -124,7 +124,7 @@ nav img {
         width: 35vmax;
         margin-top: 2vmax;
         animation-duration: 1s;
-        margin-left: -10vmax;
+        margin-left: -1vmax;
     }
     nav img#logo{
         display: none;
@@ -137,8 +137,9 @@ nav img {
     }
 
     section.card div#card{
-        width: 20vmax;
+        width: 25vmax;
         height: 30vmax;
+        font-size: 2vmax;
     }
     footer{
         font-size: 1vmax;
