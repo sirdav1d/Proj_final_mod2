@@ -132,7 +132,7 @@ nav #btnCadastrar:hover {
 }
 
 .wrap {
-    width: 110%;
+    width: 25vmax;
     margin-bottom: 50px;
     padding-bottom: 80%;
     position: relative;
