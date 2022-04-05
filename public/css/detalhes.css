@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url(/assets/media/back-detalhes.webp);
+
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 9;
