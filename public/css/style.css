@@ -163,16 +163,9 @@ main section.card div#card p{
     text-align: center;
 }
 
-main section.card div#links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-   
-}
 
 
-main section.card div#links a{
+main section.card div#link a{
     text-decoration: none;
     color: var(--colorWhite);
     padding: .15vmax;
@@ -180,7 +173,7 @@ main section.card div#links a{
     font-weight: 900;
 }
 
-main section.card div#links a:hover{
+main section.card div#link a:hover{
     color: var(--colorBluelight);
 }
 
@@ -350,6 +343,10 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 .drop-content{
     display: none;
     position: absolute;
+    width: .5vmax;
+    margin-top: .5vmax;
+    overflow: auto;
+    background-color: var(--colorWhite);
 
 }
 
