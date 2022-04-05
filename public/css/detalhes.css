@@ -19,20 +19,36 @@ nav {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-color: #204E7D;
+    background-color: var(--colorBluedark);
     height: 8rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
+        inset 1px -1px 4px rgba(0, 0, 0, 0.514)
 }
 
 nav a {
     font-family: Montserrat;
     text-decoration: none;
     background-color: rgb(255, 255, 255);
-    color: #505751;
+    color: var(--colorBlacksmooth);
     padding: 1rem;
     margin: 1rem;
     margin-top: 4rem;
     border-radius: 0.2rem;
-    box-shadow: 3px 7px 23px -6px rgba(0, 0, 0, 0.20);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
+        inset 1px -1px 4px rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 4px var(--colorBlacksmooth);
+    transition: all .5s 1ms ease;
+
+
+}
+
+
+nav a:hover {
+    transition: all .5s 1ms ease;
+    text-decoration: none;
+    background-color: var(--colorBluelight);
+    color: var(--colorWhite);
+    font-weight: 900;
 }
 
 nav img {
@@ -41,36 +57,24 @@ nav img {
     padding-right: 2rem;
 }
 
-nav a:hover {
-    transition: 0.5s;
-    text-decoration: none;
-    background-color: #00DBC5;
-    color: #505751;
-}
 
-#btnCadastrar {
+
+nav #btnCadastrar {
     padding: 2rem;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 2rem;
     text-decoration: none;
-    background-color: #D3E600;
-    color: #ffffff;
+    background-color: var(--colorGreen);
+    color: var(--colorWhite);
     border-radius: 0.7rem;
     transform: translateY(25%);
 }
 
-#btnCadastrar:hover {
+nav #btnCadastrar:hover {
     transition: 0.5s;
     text-decoration: none;
-    background-color: #00DBC5;
-    color: #505751;
-}
-
-h1 {
-    text-align: center;
-    font-size: 2.3rem;
-    padding-top: 4.5rem;
-    font-family: Dela Gothic One;
-    color: #D3E600;
+    background-color: var(--colorBluelight);
+    color: var(--colorBlacksmooth);
+    font-weight: 900;
 }
 
 .detalhesTenis {
@@ -120,22 +124,22 @@ h1 {
     display: none;
 }
 
-.wrap .imagens {
+/* .wrap .imagens {
     position: absolute;
     align-content: center;
     width: 500%;
     height: 100%;
     list-style: none;
     transition: transform 1s;
-}
+} */
 
-.wrap .s-imagens {
+/* .wrap .s-imagens {
     display: inline-block;
     width: 20%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-}
+} */
 
 /* .wrap .s-imagens-1 {
     background-image: url("../img/01.png");
