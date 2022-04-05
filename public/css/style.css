@@ -320,6 +320,8 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 }
 
 .drop-btn{
+    height: .3vmax;
+    width: .1vmax;
     transition: all .5s ease;
     position: relative;
 }
@@ -333,7 +335,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
     display:block;
     position: absolute;
     width: 5vmax;
-    margin-top: 1.2vmax;
+    margin-top: 1.5vmax;
     overflow: auto;
     
 
