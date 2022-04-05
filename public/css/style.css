@@ -326,6 +326,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 .drop-menu{
     display: flex;
     justify-content: flex-end;
+    border: 2px solid aqua;
 }
 
 .drop-btn{
