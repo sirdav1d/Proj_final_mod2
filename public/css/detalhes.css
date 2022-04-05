@@ -100,7 +100,7 @@ nav #btnCadastrar:hover {
     display: flex;
     padding: 3rem;
     padding-left: 9rem;
-    margin: .5vmax 0 .5vmax 30vmax;
+    margin: .5vmax 0 .5vmax 20vmax;
 }
 
 .textoDetalhes {
@@ -167,14 +167,16 @@ nav #btnCadastrar:hover {
 
 .s-imagens-1{
     height: 1vmax;
-    margin-left: 30vmax;
+    margin-left: 40vmax;
 }
 
-
+.s-imagens-1 img{
+    height: 10vmax;
+}
 
 .s-imagens-2{
     height: 1vmax;
-    margin-left: 60vmax;
+    margin-left: 80vmax;
 }   
 
 .s-imagens-3{
