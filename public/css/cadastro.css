@@ -107,7 +107,7 @@ main a{
     font-size: 1.5vmax;
     text-decoration: none;
     color: var(--colorWhite);
-    margin-top: 40vmax;
+    padding-top: 40vmax;
     text-shadow: 2px 2px 6px black;
     transition: all .8s ease;
     font-weight: 900;
