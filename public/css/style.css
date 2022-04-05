@@ -346,10 +346,10 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 .drop-content{
     display:block;
     position: absolute;
-    width: 5vmax;
-    margin-top: 1.5vmax;
+    width: 4vmax;
+    margin-top: 1.2vmax;
     overflow: auto;
-    color: var(--colorBlacksmooth);
+    
 
 }
 
@@ -360,11 +360,11 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
     inset 2px -2px 4px rgba(0, 0, 0, 0.5);
     transition: all .5s ease;
-    padding: .5vmax;
+    padding: .4vmax;
     font-size: .7vmax;
     text-decoration: none;
     text-align: center;
-    
+    color: var(--colorBlacksmooth);
 }
 
 .drop-content a:hover{
