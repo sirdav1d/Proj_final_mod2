@@ -253,13 +253,11 @@ h1 {
 }
 
 footer {
-    flex-shrink: 0;
-    text-align: center;
-    align-content: center;
-    color: #ffffff;
-    bottom: 0;
-    background-color: #204E7D;
-    padding: 1rem;
-    height: 2rem;
+    position: fixed;
     width: 100%;
+    bottom: 0px;
+    text-align: center;
+    padding: 1vmax;
+    color: var(--colorWhite);
+    background-color: var(--colorBluedark);
 }
