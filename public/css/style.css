@@ -326,8 +326,8 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 .drop-menu{
     display: flex;
     justify-content: flex-end;
-    border: 2px solid aqua;
     margin-left: 7vmax;
+    margin-top: -4vmax;
 
 }
 
@@ -347,7 +347,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
     display:block;
     position: absolute;
     width: 4vmax;
-    margin-top: 2vmax;
+    margin-top: 1.5vmax;
     overflow: auto;
     color: var(--colorBlacksmooth);
 
@@ -360,8 +360,8 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
     inset 2px -2px 4px rgba(0, 0, 0, 0.5);
     transition: all .5s ease;
-    padding: 1vmax;
-    font-size: .5vmax;
+    padding: .5vmax;
+    font-size: .7vmax;
     text-decoration: none;
     
 }
