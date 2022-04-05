@@ -110,7 +110,7 @@ section.container_pag_cadastro {
     flex-wrap: wrap;
     justify-content: center;
     text-shadow: 1px 1px 2px var(--colorBlacksmooth);
-    margin: 3vmax;
+    margin-bottom: 3vmax;
 }
 
 
