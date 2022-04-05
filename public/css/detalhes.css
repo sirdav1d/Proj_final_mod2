@@ -9,12 +9,21 @@
 
 }
 
+:root {
+    --colorBluedark: #204e7d;
+    --colorGreen: #d3e600;
+    --colorWhite: #f7fee6;
+    --colorBluelight: #00dbc5;
+    --colorBlacksmooth: #505751;
+
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url(/assets/media/back-detalhes.webp);
     background-size: cover;
-    background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: darken;
