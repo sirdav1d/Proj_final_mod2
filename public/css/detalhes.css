@@ -26,8 +26,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-blend-mode: darken;
-    background-color: #00000086;
 }
 
 header {
