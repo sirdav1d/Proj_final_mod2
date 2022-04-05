@@ -41,10 +41,10 @@ header{
 
 nav{
     display: flex;
-    align-items:flex-end;
-    justify-content: center;
+    align-items:center;
+    justify-content: space-around;
     background-color: var(--colorBluedark);
-    height: 8rem;
+    height: 10vmax;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
     inset 1px -1px 4px rgba(0, 0, 0, 0.514)
    
