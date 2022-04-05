@@ -107,6 +107,7 @@ main a{
     font-size: 2vmax;
     text-decoration: none;
     color: var(--colorWhite);
+    margin: auto;
 }
 
 section.container_pag_cadastro {
