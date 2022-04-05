@@ -41,7 +41,7 @@ header{
 
 nav{
     display: flex;
-    align-items:center;
+    align-items:flex-end;
     justify-content: space-around;
     background-color: var(--colorBluedark);
     height: 8vmax;
