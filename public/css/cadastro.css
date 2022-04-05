@@ -108,7 +108,7 @@ main a{
     justify-content: center;
     align-items: center;
     font-size: 1.5vmax;
-    margin-top: 10vmax;
+    margin-top: 5vmax;
     text-decoration: none;
     color: var(--colorWhite);
     text-shadow: 2px 2px 6px black;
