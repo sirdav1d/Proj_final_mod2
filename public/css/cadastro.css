@@ -224,7 +224,11 @@ footer {
 
 
 @media screen and (max-width:820px){
-    section.container_pag_cadastro form#container_formulario{
+   main a{
+        font-size: 4vmax;
+    }
+    
+   main section.container_pag_cadastro form#container_formulario{
         height:50vmax;
         width:30vmax;
         margin-top: 10vmax;
