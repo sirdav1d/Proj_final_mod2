@@ -148,6 +148,7 @@ nav #btnCadastrar:hover {
     width: 500%;
     height: 100%;
     list-style: none;
+    flex-wrap: wrap;
     transition: transform 1s;
 
 }
@@ -158,6 +159,7 @@ nav #btnCadastrar:hover {
     height: 100%;
     background-repeat: no-repeat;
     background-size: contain;
+    flex-wrap: wrap;
 }
 
 .s-imagens-1 {
