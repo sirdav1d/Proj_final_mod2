@@ -344,10 +344,10 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 }
 
 .drop-content{
-    display: flex;
-    justify-content: flex-end;
-    width: .5vmax;
-    margin-top: .5vmax;
+    display:block;
+    position: absolute;
+    width: 2vmax;
+    margin-top: 2vmax;
     overflow: auto;
     color: var(--colorBlacksmooth);
 
