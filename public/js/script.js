@@ -3,9 +3,8 @@ const viewdrop = ()=>{
 
     buttons.forEach((btn)=>{
         btn.addEventListener("click", (event)=>{
-
-        
-        console.log(event);
+        const content = event.path[2].children[1]
+        console.log(content)
         })
     })
 }
