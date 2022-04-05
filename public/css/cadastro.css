@@ -214,7 +214,7 @@ form#container_formulario input {
 }
 
 footer {
-    position: fixed;
+    display: flex;
     bottom: 0px;
     text-align: center;
     padding: 1vmax;
