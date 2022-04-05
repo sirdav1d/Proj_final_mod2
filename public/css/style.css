@@ -39,66 +39,50 @@ body{
 header{
      z-index: 998;
 }
-
-nav{
+nav {
     display: flex;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: center;
     background-color: var(--colorBluedark);
-    height: 8vmax;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
-    inset 1px -1px 4px rgba(0, 0, 0, 0.514)
-   
+    height: 8rem;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0),
+        inset 2px -2px 5px rgb(0, 0, 0);
+
+
 }
 
-nav a{
+nav a {
     font-family: Montserrat;
     text-decoration: none;
     background-color: rgb(255, 255, 255);
     color: var(--colorBlacksmooth);
-    padding: 1vmax;
-    border-radius: .25vmax;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
-    inset 1px -1px 4px rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 4px var(--colorBlacksmooth);
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 4rem;
+    border-radius: 0.2rem;
+    text-shadow: 1px 1px 2px var(--colorBlacksmooth);
     transition: all .5s 1ms ease;
-    transform: translateY(25%);
-    transform: translateY(-10vmax);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
+        inset 2px -2px 5px rgb(0, 0, 0);
+
 
 }
 
 
 nav a:hover {
     transition: all .5s 1ms ease;
+    text-decoration: none;
     background-color: var(--colorBluelight);
     color: var(--colorWhite);
-    font-weight:900;
+    font-weight: 900;
 }
 
-nav img{
+nav img {
     width: 15%;
     transform: translateY(25%);
     padding-right: 2rem;
 }
 
-
-
-nav #btnCadastrar{
-    padding: 2.5vmax;
-    margin: 2vmax;
-    text-decoration: none;
-    background-color: var(--colorGreen);
-    color: var(--colorWhite);
-    border-radius: .5vmax;
-    
-}
-
-nav #btnCadastrar:hover{
-    transition: 0.5s;
-    text-decoration: none;
-    background-color: var(--colorBluelight);
-    color: var(--colorBlacksmooth);
-    font-weight: 900;
-}
 
 .btn_icon_header{
     display:none;
@@ -114,7 +98,7 @@ nav #btnCadastrar:hover{
         top: 0;
     }
     nav{
-        position: absolute;
+        
         flex-direction: column;
         top:0px;
         height: 100%;
