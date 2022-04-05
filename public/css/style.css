@@ -55,7 +55,7 @@ nav a{
     background-color: rgb(255, 255, 255);
     color: var(--colorBlacksmooth);
     padding: 1vmax;
-    margin: 15vmax 1.5vmax 0 1.5vmax;
+    margin: 45vmax 1.5vmax 0 1.5vmax;
     border-radius: .25vmax;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
     inset 1px -1px 4px rgba(0, 0, 0, 0.514);
@@ -130,6 +130,17 @@ nav #btnCadastrar:hover{
     footer{
         font-size: 1vmax;
     }
+}
+
+
+@keyframes sideBar {
+    from{
+        margin-left: -100vmax;
+    }
+    to{
+        margin-left: -10vmax;
+    }
+    
 }
 main section.card{
     display: flex;
