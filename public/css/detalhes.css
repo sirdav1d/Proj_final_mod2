@@ -30,6 +30,7 @@ body {
 
 header {
     z-index: 998;
+    margin-bottom: 5vmax;
 }
 
 nav {
@@ -39,7 +40,7 @@ nav {
     background-color: var(--colorBluedark);
     height: 8rem;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
-        inset 1px -1px 4px rgba(0, 0, 0, 0.514)
+        inset 1px -1px 4px rgba(0, 0, 0, 0.514);
 }
 
 nav a {
