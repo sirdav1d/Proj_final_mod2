@@ -121,6 +121,7 @@ nav #btnCadastrar:hover{
         top:0px;
         height: 100%;
         width: 35vmax;
+        padding: 1vmax;
     }
 }
 main section.card{
