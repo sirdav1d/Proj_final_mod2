@@ -44,7 +44,7 @@ nav{
     align-items:center;
     justify-content: space-around;
     background-color: var(--colorBluedark);
-    height: 10vmax;
+    height: 7vmax;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
     inset 1px -1px 4px rgba(0, 0, 0, 0.514)
    
@@ -57,7 +57,7 @@ nav a{
     color: var(--colorBlacksmooth);
     padding: 1rem;
     margin: 1rem;
-    margin-top: 4rem;
+    margin-top: 7vmax;
     border-radius: 0.2rem;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
     inset 1px -1px 4px rgba(0, 0, 0, 0.514);
