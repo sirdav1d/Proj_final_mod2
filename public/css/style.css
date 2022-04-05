@@ -118,6 +118,9 @@ nav #btnCadastrar:hover{
     nav{
         position: absolute;
         flex-direction: column;
+        top:0px;
+        height: 100%;
+        width: 35vmax;
     }
 }
 main section.card{
