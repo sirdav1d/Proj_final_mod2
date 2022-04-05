@@ -145,7 +145,7 @@ section.container_pag_cadastro form#container_formulario h2{
 section.container_pag_cadastro form#container_formulario label {
     
     color: var(--colorGreen);
-    font-size: .8vmax;
+    font-size: 1vmax;
     font-weight: 900;
     margin-top: .5vmax;
 }
@@ -155,7 +155,7 @@ form#container_formulario input {
     border: 1px solid var(--colorBluedark);
     border-radius: .5vmax;
     padding: .2vmax;
-    font-size: 1.1vmax;
+    font-size: .9vmax;
     outline-style: none;
 }
 
