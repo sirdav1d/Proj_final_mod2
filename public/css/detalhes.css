@@ -160,17 +160,20 @@ nav #btnCadastrar:hover {
 }
 
 .s-imagens-1 {
-   height: 5vmax;
+height: 3vmax;
+margin-bottom: 20vmax;
 
 }
 
 .s-imagens-2 {
-    height: 5vmax;
+    height: 3vmax;
+    margin-bottom: 20vmax;
 
 }
 
 .s-imagens-3 {
-    height: 5vmax;
+    height: 3vmax;
+    margin-bottom: 20vmax;
 
 } 
 
