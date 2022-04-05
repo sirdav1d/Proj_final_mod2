@@ -116,6 +116,7 @@ nav img {
         top: 0;
     }
     nav{
+        position: absolute;
         display: flex;
         flex-direction: column;
         top:0px;
@@ -133,6 +134,11 @@ nav img {
         font-size: 1.5vmax;
         margin-top: 2.5vmax;
         padding: 1vmax;
+    }
+
+    section.card div#card{
+        width: 20vmax;
+        height: 30vmax;
     }
     footer{
         font-size: 1vmax;
