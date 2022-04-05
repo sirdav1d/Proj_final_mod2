@@ -149,6 +149,7 @@ nav #btnCadastrar:hover {
     height: 100%;
     list-style: none;
     transition: transform 1s;
+
 }
 
 .wrap .s-imagens {
@@ -160,7 +161,7 @@ nav #btnCadastrar:hover {
 }
 
 .s-imagens-1 {
-height: 3vmax;
+height: 1.5vmax;
 margin-bottom: 20vmax;
 
 }
