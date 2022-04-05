@@ -124,7 +124,7 @@ main section.card div#card{
     margin: 1vmax 3vmax;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
 		inset 1px -1px 4px rgba(0, 0, 0, 0.514);
-	padding: 1vmax;
+	padding: .5vmax;
 	background-color: rgb(255, 255, 255, 0.1);
 	backdrop-filter: blur(8px);
 	border: 1px rgb(255, 255, 255,0.1) solid;
@@ -327,7 +327,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
     display: flex;
     justify-content: flex-end;
     border: 2px solid aqua;
-    margin-left: 5vmax;
+    margin-left: 9vmax;
 
 }
 
