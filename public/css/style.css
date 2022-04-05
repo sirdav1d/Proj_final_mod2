@@ -116,7 +116,7 @@ main section.card{
 
 main section.card div#card{
     height: 15vmax;
-    width: 10vmax;
+    width: 12vmax;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
