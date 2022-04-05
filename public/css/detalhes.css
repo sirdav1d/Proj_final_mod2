@@ -164,19 +164,18 @@ nav #btnCadastrar:hover {
 }
 
 .s-imagens-1 img{
-    height: 2vmax;
-    width: 2vmax;
+    height: 5vmax;
     margin-left: 30vmax;
 
 }
 
-.s-imagens-2 {
-    height: 1vmax;
+.s-imagens-2 img{
+    height: 5vmax;
     margin-left: 60vmax;
 }
 
 .s-imagens-3 {
-    height: 1vmax;
+    height: 5vmax;
 } 
 
 .type .s-control {
