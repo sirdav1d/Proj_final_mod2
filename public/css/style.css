@@ -144,7 +144,7 @@ main section.card div#card img#tenis{
 }
 main section.card div#card img#tenis:hover{
     height: 5.5vmax;
-    transform: translateY(-1.5vmax);
+    transform: translateY(-1vmax);
     
 }
 
