@@ -124,6 +124,7 @@ nav #btnCadastrar:hover {
 
 .container {
     width: 50%;
+    height: 15vmax;
     align-content: center;
     align-items: center;
     margin: 0;
@@ -134,7 +135,7 @@ nav #btnCadastrar:hover {
     margin-bottom: 50px;
     padding-bottom: 55%;
     position: relative;
-    background-color: #ffffff;
+    background-color: #ffffff00;
     overflow: hidden;
 }
 
