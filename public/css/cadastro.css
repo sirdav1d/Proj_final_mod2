@@ -108,6 +108,12 @@ main a{
     text-decoration: none;
     color: var(--colorWhite);
     margin: auto;
+    text-shadow: 2px 2px 6px black;
+    transition: all .8s ease;
+}
+main a:hover{
+    color: var(--colorGreen);
+
 }
 
 section.container_pag_cadastro {
