@@ -18,4 +18,4 @@ const viewdrop = ()=>{
     })
 }
 
-viewdrop()
+viewdrop();
