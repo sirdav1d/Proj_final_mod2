@@ -325,7 +325,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 }
 
 .drop-btn:hover{
-    box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.301);
+    box-shadow: 0px 10px 10px 0 rgb(0, 0, 0);
     cursor: pointer;
 }
 
