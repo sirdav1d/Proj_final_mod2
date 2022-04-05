@@ -124,6 +124,13 @@ nav #btnCadastrar:hover{
         width: 35vmax;
         padding: 1vmax;
     }
+    nav img#logo{
+        display: none;
+    }
+
+    footer{
+        font-size: 1vmax;
+    }
 }
 main section.card{
     display: flex;
