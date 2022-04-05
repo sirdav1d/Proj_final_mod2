@@ -103,13 +103,19 @@ nav #btnCadastrar:hover{
 }
 
 .btn_icon_header{
-    /* display:none; */
+    display:none;
     background-color: transparent;
     border: none;
     color: var(--colorWhite);
     cursor: pointer;
+    align-self: center;
 }
 
+@media screen and (max-width:768px) {
+    .btn_icon_header{
+        display: block;
+    }
+}
 main section.card{
     display: flex;
     flex-direction: row;
