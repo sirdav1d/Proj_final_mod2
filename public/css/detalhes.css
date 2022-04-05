@@ -161,17 +161,18 @@ nav #btnCadastrar:hover {
     background-repeat: no-repeat;
     background-size: contain;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 .s-imagens-1{
-    margin-left: 20vmax;
+    margin-left: 30vmax;
 }
 
 
 
 .s-imagens-2{
-    margin-left: 40vmax;
+    margin-left: 60vmax;
 }   
 
 
