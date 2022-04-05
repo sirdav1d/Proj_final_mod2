@@ -186,15 +186,14 @@ form#container_formulario input {
     color: var(--colorWhite);
     background-color: var(--colorBluelight);
     font-weight: 900;
+    cursor: pointer;
 }
 
-
-
-
 #bt-del:hover{
-color: var(--colorWhite);
-background-color: rgb(231, 54, 54);
-font-weight: 900;
+    color: var(--colorWhite);
+    background-color: rgb(231, 54, 54);
+    font-weight: 900;
+    cursor: pointer;
 }
 
 footer {
