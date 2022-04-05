@@ -133,16 +133,17 @@ main section.card div#card{
     transition: all .8s ease;
     text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.63);
     font-weight: 400;
+    font-size: 1vmax;
   
 }
 
 
 main section.card div#card img#tenis{
-    height: 3vmax;
+    height: 4vmax;
     transition: all .8s;
 }
 main section.card div#card img#tenis:hover{
-    height: 5vmax;
+    height: 6vmax;
     transform: translateY(-2vmax);
     
 }
@@ -155,27 +156,14 @@ main section.card div#rank{
     align-items: center;
 }
 main section.card div#rank img{
-    height: 1.2vmax;
+    height: 1.1vmax;
 }
 
 main section.card div#card p{
-    font-size: 1.1vmax;
+    font-size: 1vmax;
     text-align: center;
 }
 
-
-
-main section.card div#link a{
-    text-decoration: none;
-    color: var(--colorWhite);
-    padding: .15vmax;
-    transition: all .8s;
-    font-weight: 900;
-}
-
-main section.card div#link a:hover{
-    color: var(--colorBluelight);
-}
 
 section.overlay {
     background-color: rgba(0, 0, 0, 0.411);
@@ -346,7 +334,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 .drop-content{
     display:block;
     position: absolute;
-    width: 4vmax;
+    width: 5vmax;
     margin-top: 1.2vmax;
     overflow: auto;
     
@@ -363,7 +351,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
     padding: .4vmax;
     font-size: .7vmax;
     text-decoration: none;
-    text-align: center;
+    text-align: right;
     color: var(--colorBlacksmooth);
 }
 
