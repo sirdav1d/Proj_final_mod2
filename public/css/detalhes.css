@@ -16,10 +16,11 @@ body {
     background-image: url("/assets/media/back-detalhes.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 9;
 }
 
 header {
-    z-index: 9999;
+    z-index: 10;
 }
 
 .navBar {
