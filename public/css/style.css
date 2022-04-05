@@ -102,6 +102,13 @@ nav #btnCadastrar:hover{
     font-weight: 900;
 }
 
+.btn_icon_header{
+    /* display:none; */
+    background-color: transparent;
+    border: none;
+    color: var(--colorWhite);
+    cursor: pointer;
+}
 
 main section.card{
     display: flex;
