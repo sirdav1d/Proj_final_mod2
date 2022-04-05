@@ -107,7 +107,7 @@ main a{
     font-size: 1.5vmax;
     text-decoration: none;
     color: var(--colorWhite);
-    margin: 20vmax;
+    margin: 20vmax 0 20vmax 0;;
     text-shadow: 2px 2px 6px black;
     transition: all .8s ease;
 }
