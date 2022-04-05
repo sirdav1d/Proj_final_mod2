@@ -10,17 +10,19 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-image: url("/assets/media/back-detalhes.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    position: center;
 }
 
 header {
     z-index: 9999;
 }
 
-nav.navBar {
+.navBar {
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -30,7 +32,7 @@ nav.navBar {
         inset 1px -1px 4px rgba(0, 0, 0, 0.514)
 }
 
-nav.navBar div.btn a {
+.navBar div.btn a {
     font-family: Montserrat;
     text-decoration: none;
     background-color: rgb(255, 255, 255);
@@ -48,7 +50,7 @@ nav.navBar div.btn a {
 }
 
 
-nav.navBar div.btn a:hover {
+.navBar div.btn a:hover {
     transition: all .5s 1ms ease;
     text-decoration: none;
     background-color: var(--colorBluelight);
@@ -56,7 +58,7 @@ nav.navBar div.btn a:hover {
     font-weight: 900;
 }
 
-nav.navBar img {
+.navBar img {
     width: 15%;
     transform: translateY(25%);
     padding-right: 2rem;
@@ -64,7 +66,7 @@ nav.navBar img {
 
 
 
-nav.navBar div.btn a#btnCadastrar {
+.navBar div.btn a#btnCadastrar {
     padding: 2rem;
     margin: 2rem;
     text-decoration: none;
@@ -74,7 +76,7 @@ nav.navBar div.btn a#btnCadastrar {
     transform: translateY(25%);
 }
 
-nav.navBar div.btn a#btnCadastrar:hover {
+.navBar div.btn a#btnCadastrar:hover {
     transition: 0.5s;
     text-decoration: none;
     background-color: var(--colorBluelight);
