@@ -121,6 +121,8 @@ nav #btnCadastrar:hover{
         height: 100%;
         width: 35vmax;
         padding: 1vmax;
+        animation-duration: 1s;
+        margin-left: -100vmax;
     }
     nav img#logo{
         display: none;
