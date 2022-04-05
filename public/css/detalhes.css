@@ -13,17 +13,19 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
-    background-repeat: no-repeat;
     background-size: cover;
-    z-index: 9;
+    background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: #00000086;
 }
 
 header {
-    z-index: 10;
+    z-index: 998;
 }
 
-.navBar {
+nav {
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -33,7 +35,7 @@ header {
         inset 1px -1px 4px rgba(0, 0, 0, 0.514)
 }
 
-.navBar div.btn a {
+nav a {
     font-family: Montserrat;
     text-decoration: none;
     background-color: rgb(255, 255, 255);
@@ -51,7 +53,7 @@ header {
 }
 
 
-.navBar div.btn a:hover {
+nav a:hover {
     transition: all .5s 1ms ease;
     text-decoration: none;
     background-color: var(--colorBluelight);
@@ -59,7 +61,7 @@ header {
     font-weight: 900;
 }
 
-.navBar img {
+nav img {
     width: 15%;
     transform: translateY(25%);
     padding-right: 2rem;
@@ -67,7 +69,7 @@ header {
 
 
 
-.navBar div.btn a#btnCadastrar {
+nav #btnCadastrar {
     padding: 2rem;
     margin: 2rem;
     text-decoration: none;
@@ -77,7 +79,7 @@ header {
     transform: translateY(25%);
 }
 
-.navBar div.btn a#btnCadastrar:hover {
+nav #btnCadastrar:hover {
     transition: 0.5s;
     text-decoration: none;
     background-color: var(--colorBluelight);
