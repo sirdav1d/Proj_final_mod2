@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav class="navBar">
-            <img src="../assets/media/logo-home.jfif" alt="logo">
+            <img src="/assets/media/Ativo 1.png" alt="logo">
             <div class="btn">
                 <a href="/">Meus Sneakers</a>
                 <a href="">TOP10 da Semana</a>
@@ -20,20 +20,49 @@
             </div>
     </header>
     <main>
-        <div id="card">
-                <img id="tenis" src="<%=produto.imagem1%>" alt="tenis_img1">
-                <p><%=produto.nome%></p>
+        <h1> DETALHES DO SEU SNEAKER!</h1>
+        
+        <div class="detalhesTenis">
+            <div class="container">
+                <div class="wrap type" role="slider">
+        
+                    <input type="radio" id="s-1" name="slider-control" checked="checked">
+                    <input type="radio" id="s-2" name="slider-control">
+                    <input type="radio" id="s-3" name="slider-control">
+        
+                    <ul class="imagens">
+                        
+                        <li class="s-imagens s-imagens-1"><img id="tenis" src="<%=produto.imagem1%>" alt="tenis_img1"></li>
 
-                <div id ="rank">
-                    <img src="https://img.icons8.com/fluency/48/000000/star.png"/>
-                    <p><%=produto.nota%></p>
+                        <li class="s-imagens s-imagens-2"><img src="<%=produto.imagem2%>" alt="tenis_img2"></li>
+                        
+                        <li class="s-imagens s-imagens-3"><img src="<%=produto.imagem3%>" alt="tenis_img3"></li>
+                    </ul>
+        
+                    <div class="s-control">
+                        <label class="s-c-1" for="s-1"></label>
+                        <label class="s-c-2" for="s-2"></label>
+                        <label class="s-c-3" for="s-3"></label>
+                    </div>
+        
+                    <div class="s-nav">
+                        <label class="s-nav-1 right" for="s-2"></label>
+                        <label class="s-nav-2 left" for="s-1"></label>
+                        <label class="s-nav-2 right" for="s-3"></label>
+                        <label class="s-nav-3 left" for="s-2"></label>
+                        <label class="s-nav-3 right" for="s-4"></label>
+                    </div>
                 </div>
-
-                <p><%=produto.uso%></p>
+        
+            </div>
+            <div class="textoDetalhes">
+                <h2><%=produto.nome%></h2>
+                <h3><%=produto.nota%></h3>
                 <p><%=produto.descricao%></p>
-                <p><%=produto.material%></p>
-                <img src="<%=produto.imagem2%>" alt="tenis_img2">
-                <img src="<%=produto.imagem3%>" alt="tenis_img3">
+                <h3>Uso: <%=produto.uso%></h3>
+                <h3>Material: <%=produto.material%></h3>
+            </div>
+        </div>                      
     </main>
     <footer>
         <p>Todos os direitos reservados &copy; - David - Micael - Felipe - Carlos </p>

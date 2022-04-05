@@ -136,20 +136,6 @@ h1 {
     background-size: contain;
 }
 
-.wrap .s-imagens-1 {
-    background-image: url("../img/01.png");
-
-}
-
-.wrap .s-imagens-2 {
-    background-image: url("../img/02.png");
-
-}
-
-.wrap .s-imagens-3 {
-    background-image: url("../img/03.png");
-
-}
 
 .type .s-control {
     position: absolute;
