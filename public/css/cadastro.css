@@ -235,12 +235,18 @@ footer {
         height:55vmax;
         width:40vmax;
         margin-top: 5vmax;
+        font-size: 1vmax;
+    }
+    main section.container_pag_cadastro form#container_formulario h2{
         font-size: 1.5vmax;
     }
     main section.container_pag_cadastro form#container_formulario label{
         font-size:1vmax;
 
         }
+    mainsection.container_pag_cadastro form#container_formulario input{
+        font-size: 1vmax;
+    }
     footer{
         font-size: 1vmax;
     }
