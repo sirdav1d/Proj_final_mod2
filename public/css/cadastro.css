@@ -103,6 +103,11 @@ nav img {
     font-weight: 900;
 }
 
+main a{
+    font-size: 2vmax;
+    text-decoration: none;
+    color: var(--colorWhite);
+}
 
 section.container_pag_cadastro {
     display: flex;
@@ -197,7 +202,7 @@ form#container_formulario input {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 0px;
     text-align: center;
