@@ -157,22 +157,12 @@ nav #btnCadastrar:hover {
 .wrap .s-imagens {
     display: inline-block;
     width: 20%;
-    height: 100%;
+    height: 80%;
     background-repeat: no-repeat;
     background-size: contain;
     flex-wrap: wrap;
 }
 
-
-.s-imagens-1{
-    margin-left: 40vmax;
-}
-
-
-
-.s-imagens-2{
-    margin-left: 80vmax;
-}   
 
 
 .type .s-control {
