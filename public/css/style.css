@@ -55,9 +55,9 @@ nav a{
     text-decoration: none;
     background-color: rgb(255, 255, 255);
     color: var(--colorBlacksmooth);
-    padding: 1rem;
-    margin-top: 12vmax;
-    border-radius: 0.2rem;
+    padding: 2vmax;
+    margin: 12vmax 1vmax 0 1vmax;
+    border-radius: .25vmax;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
     inset 1px -1px 4px rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 4px var(--colorBlacksmooth);
