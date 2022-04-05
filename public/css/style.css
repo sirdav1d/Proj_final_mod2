@@ -83,6 +83,24 @@ nav img {
     padding-right: 2rem;
 }
 
+#btnCadastrar {
+    padding: 2rem;
+    margin: 2rem;
+    text-decoration: none;
+    background-color: var(--colorGreen);
+    color: var(--colorWhite);
+    border-radius: 0.7rem;
+    transform: translateY(25%);
+}
+
+#btnCadastrar:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: var(--colorBluelight);
+    color: var(--colorBlacksmooth);
+    font-weight: 900;
+}
+
 
 .btn_icon_header{
     display:none;
@@ -98,7 +116,7 @@ nav img {
         top: 0;
     }
     nav{
-        
+        display: flex;
         flex-direction: column;
         top:0px;
         height: 100%;
@@ -111,6 +129,11 @@ nav img {
         display: none;
     }
 
+    nav a{
+        font-size: 1.5vmax;
+        margin-top: 2.5vmax;
+        padding: 1vmax;
+    }
     footer{
         font-size: 1vmax;
     }
