@@ -157,7 +157,7 @@ nav #btnCadastrar:hover {
 .wrap .s-imagens {
     display: inline-block;
     width: 20%;
-    height: 80%;
+    height: 120%;
     background-repeat: no-repeat;
     background-size: contain;
     flex-wrap: wrap;
