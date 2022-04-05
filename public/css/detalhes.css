@@ -163,27 +163,17 @@ nav #btnCadastrar:hover {
     flex-wrap: wrap;
 }
 
-.s-imagens-1 img{
-    height: 10vmax;
-    
-}
+
 .s-imagens-1{
     margin-left: 40vmax;
 }
 
-.s-imagens-2 img{
-    height: 10vmax;
-    
-}
+
 
 .s-imagens-2{
     margin-left: 80vmax;
 }   
 
-.s-imagens-3 img{
-    height: 10vmax;
-
-} 
 
 .type .s-control {
     position: absolute;
