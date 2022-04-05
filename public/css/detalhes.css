@@ -166,16 +166,19 @@ nav #btnCadastrar:hover {
 .s-imagens-1 img{
     height: 10vmax;
     margin-left: 40vmax;
+    align-self: center;
 
 }
 
 .s-imagens-2 img{
     height: 10vmax;
     margin-left: 80vmax;
+    align-self: center;
 }
 
 .s-imagens-3 img{
     height: 10vmax;
+    align-self: center;
 } 
 
 .type .s-control {
