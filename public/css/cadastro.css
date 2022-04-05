@@ -109,7 +109,6 @@ section.container_pag_cadastro {
     background-color: rgba(0, 0, 0, 0.541);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
     text-shadow: 1px 1px 2px var(--colorBlacksmooth);
 }
 
