@@ -349,7 +349,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
     padding: .5vmax;
     font-size: .8vmax;
     text-decoration: none;
-    text-align: right;
+    text-align: center;
     color: var(--colorBlacksmooth);
 }
 
