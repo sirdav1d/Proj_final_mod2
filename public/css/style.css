@@ -342,7 +342,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 }
 
 .drop-content{
-    display: none;
+    display: flex;
     position: absolute;
     width: .5vmax;
     margin-top: .5vmax;
