@@ -1,9 +1,265 @@
-footer {
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Dela Gothic, Arial;
+
+}
+
+body {
+    background-image: url("/img/SL_042620_30310_19.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
     display: flex;
-    bottom: 0px;
+    align-items: flex-end;
     justify-content: center;
+    background-color: #204E7D;
+    height: 8rem;
+}
+
+nav a {
+    font-family: Montserrat;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: #505751;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 4rem;
+    border-radius: 0.2rem;
+    box-shadow: 3px 7px 23px -6px rgba(0, 0, 0, 0.20);
+}
+
+nav img {
+    width: 15%;
+    transform: translateY(25%);
+    padding-right: 2rem;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: #00DBC5;
+    color: #505751;
+}
+
+#btnCadastrar {
+    padding: 2rem;
+    margin: 2rem 2rem 2rem 2rem;
+    text-decoration: none;
+    background-color: #D3E600;
+    color: #ffffff;
+    border-radius: 0.7rem;
+    transform: translateY(25%);
+}
+
+#btnCadastrar:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: #00DBC5;
+    color: #505751;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    padding-top: 4.5rem;
+    font-family: Dela Gothic One;
+    color: #D3E600;
+}
+
+.detalhesTenis {
     align-items: center;
-    padding: 1vmax;
-    color: var(--colorWhite);
-    background-color: var(--colorBluedark);
+    display: flex;
+    padding: 3rem;
+    padding-left: 9rem;
+}
+
+.textoDetalhes {
+    display: block;
+    padding-left: 2rem;
+}
+
+.textoDetalhes h2 {
+    font-family: Dela Gothic One;
+    padding-bottom: .2rem;
+}
+
+.textoDetalhes h3 {
+    padding-bottom: .2rem;
+}
+
+.textoDetalhes p {
+    padding-bottom: .2rem;
+}
+
+/* Slider */
+
+.container {
+    width: 50%;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.wrap {
+    width: 100%;
+    margin-bottom: 50px;
+    padding-bottom: 55%;
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.wrap>input {
+    display: none;
+}
+
+.wrap .imagens {
+    position: absolute;
+    align-content: center;
+    width: 500%;
+    height: 100%;
+    list-style: none;
+    transition: transform 1s;
+}
+
+.wrap .s-imagens {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrap .s-imagens-1 {
+    background-image: url("../img/01.png");
+
+}
+
+.wrap .s-imagens-2 {
+    background-image: url("../img/02.png");
+
+}
+
+.wrap .s-imagens-3 {
+    background-image: url("../img/03.png");
+
+}
+
+.type .s-control {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition-timing-function: ease-out;
+}
+
+.type .s-control>label[class^="s-c-"] {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #D3E600;
+    background-color: #efefe8;
+    cursor: pointer;
+}
+
+.type .s-nav label {
+    display: none;
+    position: absolute;
+    top: 50%;
+    padding: 5px 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.type .s-nav label::before,
+.type .s-nav label::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 24px;
+    background-color: #D3E600;
+}
+
+.type .s-nav label::before {
+    margin-bottom: -12px;
+}
+
+.type .s-nav label.left {
+    left: 20px;
+}
+
+.type .s-nav label.left::before {
+    transform: rotate(45deg);
+}
+
+.type .s-nav label.left::after {
+    transform: rotate(-45deg);
+}
+
+.type .s-nav label.right {
+    right: 20px;
+}
+
+.type .s-nav label.right::before {
+    transform: rotate(-45deg);
+}
+
+.type .s-nav label.right::after {
+    transform: rotate(45deg);
+}
+
+.type #s-1:checked~.imagens {
+    transform: translateX(0%);
+}
+
+.type #s-1:checked~.s-control .s-c-1 {
+    background-color: #D3E600;
+}
+
+.type #s-1:checked~.s-nav .s-nav-1 {
+    display: block;
+}
+
+.type #s-2:checked~.imagens {
+    transform: translateX(-20%);
+}
+
+.type #s-2:checked~.s-control .s-c-2 {
+    background-color: #D3E600;
+}
+
+.type #s-2:checked~.s-nav .s-nav-2 {
+    display: block;
+}
+
+.type #s-3:checked~.imagens {
+    transform: translateX(-40%);
+}
+
+.type #s-3:checked~.s-control .s-c-3 {
+    background-color: #D3E600;
+}
+
+.type #s-3:checked~.s-nav .s-nav-3 {
+    display: block;
+}
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    align-content: center;
+    color: #ffffff;
+    bottom: 0;
+    background-color: #204E7D;
+    padding: 1rem;
+    height: 2rem;
+    width: 100%;
 }

@@ -330,6 +330,33 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
     font-weight: 900;
 }
 
+.drop-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.drop-btn{
+    height: 1vmax;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     display: flex;
     bottom: 0px;
