@@ -100,7 +100,7 @@ nav #btnCadastrar:hover {
     display: flex;
     padding: 3rem;
     padding-left: 9rem;
-    margin: .5vmax 0 .5vmax 20vmax;
+    
 }
 
 .textoDetalhes {
@@ -119,6 +119,7 @@ nav #btnCadastrar:hover {
 
 .textoDetalhes p {
     padding-bottom: .2rem;
+    margin-right: 10vmax;
 }
 
 /* Slider */
@@ -131,9 +132,9 @@ nav #btnCadastrar:hover {
 }
 
 .wrap {
-    width: 100%;
+    width: 150%;
     margin-bottom: 50px;
-    padding-bottom: 75%;
+    padding-bottom: 100%;
     position: relative;
     background-color: #00000000;
     overflow: hidden;
