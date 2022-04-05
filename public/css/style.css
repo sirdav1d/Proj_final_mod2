@@ -61,15 +61,13 @@ nav a{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
     inset 1px -1px 4px rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 4px var(--colorBlacksmooth);
-    transition: all .5s 1ms ease;
-    
+    transition: all .5s 1ms ease;    
 
 }
 
 
 nav a:hover {
     transition: all .5s 1ms ease;
-    text-decoration: none;
     background-color: var(--colorBluelight);
     color: var(--colorWhite);
     font-weight:900;
