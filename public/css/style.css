@@ -55,13 +55,14 @@ nav a{
     text-decoration: none;
     background-color: rgb(255, 255, 255);
     color: var(--colorBlacksmooth);
-    padding: 2vmax;
-    margin: 12vmax 1vmax 0 1vmax;
+    padding: 1vmax;
+    margin: 15vmax 1.5vmax 0 1.5vmax;
     border-radius: .25vmax;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
     inset 1px -1px 4px rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 4px var(--colorBlacksmooth);
-    transition: all .5s 1ms ease;    
+    transition: all .5s 1ms ease;
+    transform: translateY(25%);    
 
 }
 
