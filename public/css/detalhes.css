@@ -133,9 +133,9 @@ nav #btnCadastrar:hover {
 .wrap {
     width: 100%;
     margin-bottom: 50px;
-    padding-bottom: 55%;
+    padding-bottom: 100%;
     position: relative;
-    background-color: #ffffff00;
+    background-color: #00000000;
     overflow: hidden;
 }
 
@@ -177,6 +177,9 @@ nav #btnCadastrar:hover {
     margin-left: 60vmax;
 }   
 
+.s-imagens-3{
+    height: 1vmax;
+}
 
 .type .s-control {
     position: absolute;
