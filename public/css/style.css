@@ -62,7 +62,8 @@ nav a{
     inset 1px -1px 4px rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 4px var(--colorBlacksmooth);
     transition: all .5s 1ms ease;
-    transform: translateY(25%);    
+    transform: translateY(25%);
+    transform: translateY(-10vmax);
 
 }
 
@@ -83,13 +84,13 @@ nav img{
 
 
 nav #btnCadastrar{
-    padding: 2rem;
-    margin: 2rem;
+    padding: 2.5vmax;
+    margin: 2vmax;
     text-decoration: none;
     background-color: var(--colorGreen);
     color: var(--colorWhite);
-    border-radius: 0.7rem;
-    transform: translateY(25%);
+    border-radius: .5vmax;
+    
 }
 
 nav #btnCadastrar:hover{
@@ -106,7 +107,6 @@ nav #btnCadastrar:hover{
     border: none;
     color: var(--colorWhite);
     cursor: pointer;
-    align-self: center;
 }
 
 @media screen and (max-width:820px) {
@@ -120,7 +120,7 @@ nav #btnCadastrar:hover{
         top:0px;
         height: 100%;
         width: 35vmax;
-        padding: 1vmax;
+        margin-top: 2vmax;
         animation-duration: 1s;
         margin-left: -100vmax;
     }
