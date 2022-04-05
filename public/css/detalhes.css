@@ -100,7 +100,7 @@ nav #btnCadastrar:hover {
     display: flex;
     padding: 3rem;
     padding-left: 9rem;
-    margin: .5vmax 0 .5vmax 4vmax;
+    margin: .5vmax 0 .5vmax 10vmax;
 }
 
 .textoDetalhes {
