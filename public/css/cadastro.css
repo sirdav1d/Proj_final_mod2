@@ -205,3 +205,12 @@ footer {
     color: var(--colorWhite);
     background-color: var(--colorBluedark);
 }
+
+
+@media screen and (max-width:820px){
+    section.container_pag_cadastro form#container_formulario{
+        height:45vmax;
+        width:35vmax;
+    }
+    
+}
