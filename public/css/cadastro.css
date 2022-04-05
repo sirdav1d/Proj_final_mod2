@@ -104,7 +104,7 @@ nav img {
 }
 
 main a{
-    font-size: 2vmax;
+    font-size: 1.5vmax;
     text-decoration: none;
     color: var(--colorWhite);
     margin: auto;
@@ -203,7 +203,7 @@ form#container_formulario input {
 }
 
 footer {
-    position: absolute;
+    position: realtive;
     width: 100%;
     bottom: 0px;
     text-align: center;
