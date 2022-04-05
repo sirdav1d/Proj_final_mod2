@@ -15,6 +15,10 @@ body {
     background-size: cover;
 }
 
+header {
+    z-index: 9999;
+}
+
 nav {
     display: flex;
     align-items: flex-end;
@@ -124,22 +128,22 @@ nav #btnCadastrar:hover {
     display: none;
 }
 
-/* .wrap .imagens {
+.wrap .imagens {
     position: absolute;
     align-content: center;
     width: 500%;
     height: 100%;
     list-style: none;
     transition: transform 1s;
-} */
+}
 
-/* .wrap .s-imagens {
+.wrap .s-imagens {
     display: inline-block;
     width: 20%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-} */
+}
 
 /* .wrap .s-imagens-1 {
     background-image: url("../img/01.png");
