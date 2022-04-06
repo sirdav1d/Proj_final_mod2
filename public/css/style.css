@@ -411,6 +411,10 @@ footer {
     .btn_icon_header {
         display: block;
     }
+
+    .logo_header{
+        margin-right: 10vmax;
+    }
     main section.card{
         margin: 8vmax 1vmax 3vmax 1vmax;
 
