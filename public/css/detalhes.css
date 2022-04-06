@@ -328,9 +328,10 @@ footer {
 
         
     }body main div.detalhesTenis div.container div.wrap{
-        width:30vmax;
+        width:35vmax;
         height: 20vmax;
         padding: 2vmax;
+        margin-right: 4vmax;
     }
 .s-imagens-1 img{
       height: 10vmax ;
