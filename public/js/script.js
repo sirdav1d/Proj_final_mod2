@@ -66,7 +66,7 @@ window.addEventListener('resize', function (event) {
 // HEADER
 
 
-const btn = document.querySelector('.btn-cad');
+const btn = document.querySelector('#bt-save');
 
 btn.addEventListener('click', function () {
 	window.alert('Sneaker adicionado com sucesso!');
