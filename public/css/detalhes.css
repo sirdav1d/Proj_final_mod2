@@ -311,11 +311,16 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
+    body main div.detalhesTenis div.container{
+        justify-content: center;
+        align-items: center;
+    }
     body main div.detalhesTenis div.Textodetalhes{
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 1vmax;
         margin-top: -5vmax;
+        width: 80%;
     }
 }
