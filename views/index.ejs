@@ -9,8 +9,13 @@
     <title>MeuSneaker.com</title>
 </head>
 <body>
+
     <header class="header-bar" id="header-bar">
-        
+       
+        <% if(message!=""){ %>
+            <%- include('/components/alerts.ejs') %>
+        <% } %>
+
         <button onclick="toggleSidebar()" class="btn_icon_header">
             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list"
                 viewBox="0 0 16 16">
