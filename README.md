@@ -37,4 +37,6 @@ Projeto postado no Heroku. (0,5)<br>
 
 #
 
+<div>
 <h3>Um projeto desenvolvido por <a href"https://github.com/sirdav1d" target="_blank">David</a>, <a href"https://github.com/MicaMore" target="_blank">Micael</a>, <a href"https://github.com/Carlos-xbm" target="_blank">Carlos</a> e <a href"https://github.com/Felipe360flp" target="_blank">Felipe</a></h3>
+  </div>
