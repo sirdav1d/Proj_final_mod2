@@ -330,6 +330,9 @@ footer {
         align-self: center;
         justify-content: center;
     }
+  .s-imagens-1 img{
+      height: 12vmax ;
+  }
 
     body main div.detalhesTenis div.Textodetalhes{
         display: flex;
