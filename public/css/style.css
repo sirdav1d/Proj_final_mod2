@@ -31,6 +31,7 @@ body{
     background-size: cover;
     background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
     background-blend-mode: darken;
     background-color: #00000086;
