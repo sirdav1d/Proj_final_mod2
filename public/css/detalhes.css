@@ -321,6 +321,8 @@ footer {
     }body main div.detalhesTenis div.container div.wrap{
         width:25vmax;
         height: 15vmax;
+        margin: 0 auto;
+        align-self: center;
     }
 
     body main div.detalhesTenis div.Textodetalhes{
