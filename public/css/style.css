@@ -40,7 +40,7 @@ header {
 
 /*HEADER*/
 .img_logo_header {
-    margin-top: 7vmax;
+    margin-top: 5vmax;
     width: 30%;
 }
 
@@ -49,7 +49,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align: center;
+    text-align: justify;
 }
 
 .header-bar {
