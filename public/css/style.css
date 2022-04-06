@@ -36,7 +36,6 @@ body {
 
 header {
     z-index: 998;
-    margin-left: 10vmax;
 }
 
 /*HEADER*/
@@ -44,6 +43,7 @@ header {
     margin-top: 5vmax;
     width: 170px;
     height: auto;
+    margin-left: 10vmax;
 }
 
 .header-bar,
