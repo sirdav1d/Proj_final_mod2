@@ -90,9 +90,9 @@ header {
     background-color: white;
     color: var(--color-3);
     padding: 20px;
-    width: 150px;
+    width: 140px;
     border-radius: .5vmax;
-    font-size: .9vmax;
+    font-size: larger;
     text-align: center;
 }
 
@@ -100,8 +100,8 @@ header {
     font-family: Montserrat;
     color: var(--colorBlacksmooth);
     text-shadow: 1px 1px 2px var(--colorBlacksmooth);
-    font-size: 1.2vmax;
-    padding:2vmax 1vmax;
+    font-size: x-large;
+    padding:30px;
     background-color: var(--colorGreen);
     border-radius: .5vmax;
     
