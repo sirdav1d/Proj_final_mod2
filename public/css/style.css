@@ -25,13 +25,7 @@
 
 
 body {
-    /* display: flex;     /*HEADER*/
-    /* align-items: flex-end; */
-    /*HEADER*/
-    /* flex-direction: column;  */
-    /*HEADER*/
-    /* min-height: 100vh; */
-    /*HEADER*/
+
     background-size: cover;
     background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
     background-repeat: no-repeat;
@@ -96,7 +90,7 @@ header {
     padding: .6vmax 3vmax;
     border-radius: .5vmax;
     font-size: 1vmax;
-    text-transform: full-width;
+    font-stretch: ultra-expanded;
 }
 
 .cadastrar {
