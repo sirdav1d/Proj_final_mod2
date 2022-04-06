@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     height: 100vh;
     background-image: url(../assets/media/background-cadastro.jpg);
+    background-position: center;
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.541);
     background-size: cover;
