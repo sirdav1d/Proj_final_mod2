@@ -68,13 +68,13 @@ header {
 .navigation_header {
     gap: 2vmax;
     z-index: 2;
-    margin-right: 4vmax;
 }
 
 .navigation_header a {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
     inset 2px -2px 5px rgb(0, 0, 0);
     text-decoration: none;
+    color: var(--colorBlacksmooth);
     margin-top: 5vmax;
     transition: 0.5s;
     text-shadow: 1px 1px 2px var(--colorBlacksmooth);
@@ -98,13 +98,13 @@ header {
 
 .cadastrar {
     font-family: Montserrat;
-    color: var(--colorWhite);
+    color: var(--colorBlacksmooth);
     text-shadow: 1px 1px 2px var(--colorBlacksmooth);
     font-size: 1.5vmax;
     padding:2vmax 1vmax;
     background-color: var(--colorGreen);
     border-radius: .5vmax;
-    margin-right: 6vmax;
+    margin-right: 5vmax;
 }
 
 .cadastrar:hover{
