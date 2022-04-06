@@ -327,26 +327,26 @@ footer {
         
     }body main div.detalhesTenis div.container div.wrap{
         width:30vmax;
-        height: 15vmax;
+        height: 20vmax;
         padding: 2vmax;
         align-self: center;
         justify-content: center;
     }
-  .s-imagens-1 img{
+.s-imagens-1 img{
       height: 11vmax ;
       margin-left: 7vmax;
-      margin: 1.5vmax;
+      margin-bottom: 1.5vmax;
   }
 
 .s-imagens-2 img {
     height: 15vmax;
     margin-left: 20vmax;
-    margin: 1.5vmax;
+    margin-bottom: 1.5vmax;
 }
 
 .s-imagens-3 img {
     height: 11vmax;
-    margin: 1.5vmax;
+    margin-bottom: 1.5vmax;
 
 }
 
