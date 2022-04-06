@@ -312,10 +312,12 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        margin: 0;
     }
     body main div.detalhesTenis div.container {
         justify-content: center;
         align-items: center;
+        margin: 0;
 
         
     }body main div.detalhesTenis div.container div.wrap{
