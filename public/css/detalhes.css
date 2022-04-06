@@ -333,17 +333,17 @@ footer {
         justify-content: center;
     }
   .s-imagens-1 img{
-      height: 12vmax ;
+      height: 11vmax ;
       margin-left: 5vmax;
   }
 
 .s-imagens-2 img {
-    height: 15vmax;
+    height: 13vmax;
     margin-left: 20vmax;
 }
 
 .s-imagens-3 img {
-    height: 12vmax;
+    height: 11vmax;
     margin-left: 1vmax;
 }
 
