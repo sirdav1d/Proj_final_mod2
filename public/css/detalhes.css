@@ -313,7 +313,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin-top: 5vmax;
         padding: 0;
     }
     body main div.detalhesTenis div.container {
@@ -324,10 +324,10 @@ footer {
 
         
     }body main div.detalhesTenis div.container div.wrap{
-        width:25vmax;
+        width:30vmax;
         height: 15vmax;
         margin: 0 auto;
-        padding: 0;
+        padding: 2vmax;
         align-self: center;
     }
 
