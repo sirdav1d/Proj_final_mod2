@@ -1,14 +1,16 @@
+<!-- @format -->
+
 <h1>Catálogo com Tema Livre</h1>
 
 Esse será o projeto final do módulo, esse projeto consiste na criação de um catálogo (com tema livre), onde será possível no futuro realizar as 4 operações do CRUD.
+
 #
 
 <h2>Critérios de Avaliação</h2>
 
-
 Valor da entrega: 10 pontos<br>
 A avaliação será feita por entregáveis obrigatórios, cada um valerá uma quantidade de pontos,<br>
-todos começarão com 0 pontos, a cada item entregue, você receberá a quantia pertinente aquela entrega.<br> 
+todos começarão com 0 pontos, a cada item entregue, você receberá a quantia pertinente aquela entrega.<br>
 Persistir os dados através do PostgreSQL com o Sequelize. (2,0)<br>
 Toda entrada de dados deve ser validada antes. (0,5)<br>
 Criar um menu de navegação em todas as telas. (0,5)<br>
@@ -37,6 +39,4 @@ Projeto postado no Heroku. (0,5)<br>
 
 #
 
-
 <h3>Um projeto desenvolvido por <a href="https://github.com/sirdav1d" target="_blank">David</a>, <a href="https://github.com/MicaMore" target="_blank">Micael</a>, <a href="https://github.com/Carlos-xbm" target="_blank">Carlos</a> e <a href="https://github.com/Felipe360flp" target="_blank">Felipe</a></h3>
-
