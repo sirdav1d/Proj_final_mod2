@@ -371,6 +371,9 @@ footer {
         margin: 8vmax 3vmax 3vmax 3vmax;
 
     }
+    main section.card div#card{
+        margin: 0;
+    }
     footer{
         font-size: 1vmax;
     }
