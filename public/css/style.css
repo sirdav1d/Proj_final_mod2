@@ -91,9 +91,10 @@ header {
 .active {
     background-color: white;
     color: var(--color-3);
-    padding: 1vmax 3vmax;
+    padding: 1vmax;
     border-radius: .5vmax;
     width: 2.5vmax;
+    font-size: 1vmax;
 }
 
 .cadastrar {
@@ -103,7 +104,7 @@ header {
     padding:2.5vmax 1vmax;
     background-color: var(--colorGreen);
     border-radius: .5vmax;
-    margin-right: 4vmax;
+    margin-right: 6vmax;
 }
 
 .cadastrar:hover{
@@ -330,6 +331,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 }
 
 .drop-menu{
+    background: none;
     display: flex;
     justify-content: flex-end;
     margin-left: 10vmax;
