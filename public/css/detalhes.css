@@ -316,7 +316,7 @@ footer {
         justify-content: center;
         align-items: center;
         margin-top: 5vmax;
-        margin-right: 5vmax;
+        margin-right: 4vmax;
         padding: 0;
     }
     body main div.detalhesTenis div.container {
@@ -334,13 +334,13 @@ footer {
     }
 .s-imagens-1 img{
       height: 10vmax ;
-      margin-left: 9vmax;
+      margin-left: 5vmax;
       margin-bottom: 1.5vmax;
   }
 
 .s-imagens-2 img {
     height: 15vmax;
-    margin-left: 20vmax;
+    margin-left: 17vmax;
     margin-bottom: 1.5vmax;
 }
 
@@ -355,7 +355,7 @@ footer {
         justify-content: center;
         align-items: center;
         padding: 1vmax;
-        margin: -3vmax 1vmax 2vmax -2vmax;
+        margin: -3vmax -4vmax 2vmax 0;
         width: 100%;
     }
     footer{
