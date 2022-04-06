@@ -65,7 +65,7 @@ header {
 .navigation_header {
     gap: 2vmax;
     z-index: 2;
-    margin-right: 5vmax;
+    margin-right: 10vmax;
 }
 
 .navigation_header a {
