@@ -345,6 +345,9 @@ footer {
 .btn_icon_header {
     display: block;
 }
+.logo_header {
+    margin-right: 10vmax;
+}
 
     body main div.detalhesTenis{
         display: flex;

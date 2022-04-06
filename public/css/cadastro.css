@@ -264,6 +264,9 @@ footer {
             display: block;
     }
     
+    .logo_header {
+        margin-right: 10vmax;
+    }
   
     main a{
         font-size: 3vmax;
