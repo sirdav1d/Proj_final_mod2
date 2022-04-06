@@ -313,19 +313,22 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    body main div.detalhesTenis div.container{
+    body main div.detalhesTenis div.container {
         justify-content: center;
         align-items: center;
         width:30vmax;
         height: 20vmax;
         
+    }body main div.detalhesTenis div.container div.wrap{
+        width:30vmax;
     }
+
     body main div.detalhesTenis div.Textodetalhes{
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 1vmax;
-        margin-top: -10vmax;
+        margin-top: -8vmax;
         
     }
 }
