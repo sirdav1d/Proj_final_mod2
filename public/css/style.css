@@ -23,19 +23,7 @@
     scroll-behavior: smooth;
 }
 
-body{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    min-height: 100vh;
-    background-size: cover;
-    background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-blend-mode: darken;
-    background-color: #00000086;
-}
+
 body {
     /* display: flex;     /*HEADER*/
     /* align-items: flex-end; */
