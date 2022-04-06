@@ -89,8 +89,8 @@ header {
     font-family: Montserrat;
     background-color: white;
     color: var(--color-3);
-    padding: 2vmax;
-    width: 100px;
+    padding: 1vmax;
+    width: 180px;
     border-radius: .5vmax;
     font-size: .9vmax;
     text-align: center;
