@@ -46,10 +46,7 @@ header {
 
 /*HEADER*/
 .img_logo_header {
-    background-color: red;
     margin-top: 7vmax;
-    width: 80px;
-    height: 80px;
 }
 
 .header-bar,
