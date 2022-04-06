@@ -40,7 +40,8 @@ header {
 /*HEADER*/
 .img_logo_header {
     margin-top: 7vmax;
-    width: 25%;
+    width: 80px;
+    height: 80px;
 }
 
 .header-bar,
