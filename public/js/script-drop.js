@@ -5,20 +5,20 @@ const viewdrop = () => {
 
 	buttons.forEach((btn) => {
 		btn.addEventListener('click', (event) => {
-			const content = event.path[2].children[1];
+			const contentDrop = event.path[2].children[1];
 
-			content.classList.toggle('active');
+			contentDrop.classList.toggle('active');
 
-			if (content.classList.contains('active')) {
-				content.style.display = 'block';
+			if (contentDrop.classList.contains('active')) {
+				contentDrop.style.display = 'block';
 			} else {
-				content.style.display = 'none';
+				contentDrop.style.display = 'none';
 			}
 
-			content.addEventListener('mouseleave', () => {
-				content.classList.remove('active');
-				if (!content.classList.contains('active')) {
-					content.style.display = 'none';
+			contentDrop.addEventListener('mouseleave', () => {
+				contentDrop.classList.remove('active');
+				if (!contentDrop.classList.contains('active')) {
+					contentDrop.style.display = 'none';
 				}
 			});
 		});

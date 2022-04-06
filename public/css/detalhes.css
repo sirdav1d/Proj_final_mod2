@@ -19,8 +19,7 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+
     min-height: 100vh;
     background-image: url(/assets/media/back-detalhes.webp);
     background-size: cover;
@@ -31,69 +30,90 @@ body {
 
 header {
     z-index: 998;
-    margin-bottom: 3vmax;
 }
 
-nav {
+/*HEADER*/
+.img_logo_header {
+    margin-top: 5vmax;
+    width: 170px;
+    height: auto;
+    margin-left: 10vmax;
+}
+
+.header-bar,
+.navigation_header {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.header-bar {
     background-color: var(--colorBluedark);
-    height: 8rem;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
-        inset 1px -1px 4px rgba(0, 0, 0, 0.514);
+    justify-content: space-between;
+    padding: 0 4%;
+    height: 5.5em;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0),
+        inset 2px -2px 5px rgb(0, 0, 0);
 }
 
-nav a {
-    font-family: Montserrat;
+.navigation_header {
+    gap: 2vmax;
+    z-index: 2;
+    margin-right: 10vmax;
+}
+
+.navigation_header a {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
+        inset 2px -2px 5px rgb(0, 0, 0);
     text-decoration: none;
-    background-color: rgb(255, 255, 255);
     color: var(--colorBlacksmooth);
-    padding: 1rem;
-    margin: 1rem;
-    margin-top: 4rem;
-    border-radius: 0.2rem;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651),
-        inset 1px -1px 4px rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 4px var(--colorBlacksmooth);
-    transition: all .5s 1ms ease;
-
-
-}
-
-
-nav a:hover {
-    transition: all .5s 1ms ease;
-    text-decoration: none;
-    background-color: var(--colorBluelight);
-    color: var(--colorWhite);
-    font-weight: 900;
-}
-
-nav img {
-    width: 15%;
-    transform: translateY(25%);
-    padding-right: 2rem;
-}
-
-
-
-nav #btnCadastrar {
-    padding: 2rem;
-    margin: 2rem;
-    text-decoration: none;
-    background-color: var(--colorGreen);
-    color: var(--colorWhite);
-    border-radius: 0.7rem;
-    transform: translateY(25%);
-}
-
-nav #btnCadastrar:hover {
+    margin-top: 5vmax;
     transition: 0.5s;
-    text-decoration: none;
+    text-shadow: 1px 1px 2px var(--colorBlacksmooth);
+
+}
+
+.navigation_header a:hover {
+    background-color: var(--colorBluelight);
+    color: var(--colorWhite);
+    transform: scale(1.1);
+    font-weight: 900;
+}
+
+.active {
+    font-family: Montserrat;
+    background-color: white;
+    color: var(--color-3);
+    padding: 20px;
+    width: 140px;
+    border-radius: .5vmax;
+    font-size: small;
+    text-align: center;
+}
+
+.cadastrar {
+    font-family: Montserrat;
+    color: var(--colorBlacksmooth);
+    text-shadow: 1px 1px 2px var(--colorBlacksmooth);
+    font-size: large;
+    padding: 40px 20px;
+    background-color: var(--colorGreen);
+    border-radius: .5vmax;
+
+}
+
+.cadastrar:hover {
     background-color: var(--colorBluelight);
     color: var(--colorBlacksmooth);
-    font-weight: 900;
+}
+
+.btn_icon_header {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
 }
 
 .detalhesTenis {
@@ -309,7 +329,22 @@ footer {
 
 @media screen and (max-width:820px) {
 
+.navigation_header {
+    position: absolute;
+    flex-direction: column !important;
+    top: 0;
+    background: var(--colorBluedark);
+    height: 100%;
+    width: 63vw;
+    padding: 1em;
+    animation-duration: 1s;
+    margin-left: -100vw;
+    border-right: solid 1px var(--color-3);
+}
 
+.btn_icon_header {
+    display: block;
+}
 
     body main div.detalhesTenis{
         display: flex;
@@ -363,5 +398,17 @@ footer {
     }
     footer{
         font-size: 1vmax;
+    }
+}
+
+
+
+@keyframes showSidebar {
+    from {
+        margin-left: -100vw;
+    }
+
+    to {
+        margin-left: -10vw;
     }
 }
