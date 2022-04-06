@@ -57,6 +57,8 @@ header {
     justify-content: space-between;
     padding: 0 4%;
     height: 5.5em;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0),
+    inset 2px -2px 5px rgb(0, 0, 0);
 }
 
 .navigation_header {
