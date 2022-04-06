@@ -68,7 +68,7 @@ header {
 .navigation_header {
     gap: 2vmax;
     z-index: 2;
-    margin-right: 20vmax;
+    margin-right: 15vmax;
 }
 
 .navigation_header a {
@@ -93,7 +93,7 @@ header {
     font-family: Montserrat;
     background-color: white;
     color: var(--color-3);
-    padding: 1vmax 1.5vmax;
+    padding: 1vmax 5vmax;
     border-radius: .5vmax;
     font-size: 1vmax;
 }
