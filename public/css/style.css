@@ -372,7 +372,7 @@ footer {
 
     }
     main section.card div#card{
-        margin: 0;
+        margin: 2vmax;
     }
     footer{
         font-size: 1vmax;
