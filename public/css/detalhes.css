@@ -319,6 +319,7 @@ footer {
         padding: 0;
     }
     body main div.detalhesTenis div.container {
+        display: flex;
         justify-content: center;
         align-items: center;
         margin: 0;
@@ -332,7 +333,7 @@ footer {
     }
 .s-imagens-1 img{
       height: 10vmax ;
-      margin-left: 8vmax;
+      margin-left: 9vmax;
       margin-bottom: 1.5vmax;
   }
 
