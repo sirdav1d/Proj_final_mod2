@@ -368,7 +368,7 @@ footer {
 
 @media screen and (max-width:820px) {
     main section.card{
-        margin: 8vmax 3vmax 3vmax 3vmax;
+        margin: 8vmax 1vmax 3vmax 1vmax;
 
     }
     main section.card div#card{
