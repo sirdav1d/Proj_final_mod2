@@ -36,71 +36,100 @@ body{
     background-blend-mode: darken;
     background-color: #00000086;
 }
-
-header{
-     z-index: 998;
+body {
+    /* display: flex;     /*HEADER*/
+    /* align-items: flex-end; */
+    /*HEADER*/
+    /* flex-direction: column;  */
+    /*HEADER*/
+    /* min-height: 100vh; */
+    /*HEADER*/
+    background-size: cover;
+    background-image: url(../assets/media/melhor-tenis-de-basquete-2-.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: #00000086;
 }
-nav {
+
+header {
+    z-index: 998;
+}
+
+/*HEADER*/
+.img_logo_header {
+    background-color: red;
+    margin-top: 7vmax;
+    width: 80px;
+    height: 80px;
+}
+
+.header-bar,
+.navigation_header {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.header-bar {
     background-color: var(--colorBluedark);
-    height: 8rem;
-    box-shadow: 2px 2px 8px rgb(0, 0, 0),
-        inset 2px -2px 5px rgb(0, 0, 0);
-
-
+    justify-content: space-between;
+    padding: 0 4%;
+    height: 5.5em;
 }
 
-nav a {
-    font-family: Montserrat;
+.navigation_header {
+    gap: 2vmax;
+    z-index: 2;
+}
+
+.navigation_header a {
+    box-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15);
     text-decoration: none;
-    background-color: rgb(255, 255, 255);
-    color: var(--colorBlacksmooth);
-    padding: 1rem;
-    margin: 1rem;
-    margin-top: 4rem;
-    border-radius: 0.2rem;
-    text-shadow: 1px 1px 2px var(--colorBlacksmooth);
-    transition: all .5s 1ms ease;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
-        inset 2px -2px 5px rgb(0, 0, 0);
+    margin-top: 5vmax;
 
-
-}
-
-
-nav a:hover {
-    transition: all .5s 1ms ease;
-    text-decoration: none;
-    background-color: var(--colorBluelight);
-    color: var(--colorWhite);
-    font-weight: 900;
-}
-
-nav img {
-    width: 15%;
-    transform: translateY(25%);
-    padding-right: 2rem;
-}
-
-#btnCadastrar {
-    padding: 2rem;
-    margin: 2rem;
-    text-decoration: none;
-    background-color: var(--colorGreen);
-    color: var(--colorWhite);
-    border-radius: 0.7rem;
-    transform: translateY(25%);
-}
-
-#btnCadastrar:hover {
     transition: 0.5s;
-    text-decoration: none;
-    background-color: var(--colorBluelight);
-    color: var(--colorBlacksmooth);
-    font-weight: 900;
+    font-weight: bold;
 }
+
+.navigation_header a:hover {
+    transform: scale(1.1);
+}
+
+.active {
+    background-color: white;
+    color: var(--color-3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cadastrar {
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15);
+    font-size: 30px;
+    background-color: var(--colorGreen);
+    padding: 2vh 1vh;
+    border-radius: 10px;
+}
+
+.btn_icon_header {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+
 
 main section.card{
     display: flex;
@@ -368,6 +397,22 @@ footer {
 
 
 @media screen and (max-width:820px) {
+    .navigation_header {
+        position: absolute;
+        flex-direction: column !important;
+        top: 0;
+        background: var(--colorBluedark);
+        height: 100%;
+        width: 63vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+        border-right: solid 1px var(--color-3);
+    }
+    
+    .btn_icon_header {
+        display: block;
+    }
     main section.card{
         margin: 8vmax 1vmax 3vmax 1vmax;
 
@@ -377,5 +422,16 @@ footer {
     }
     footer{
         font-size: 1vmax;
+    }
+}
+
+
+@keyframes showSidebar {
+    from {
+        margin-left: -100vw;
+    }
+
+    to {
+        margin-left: -10vw;
     }
 }
