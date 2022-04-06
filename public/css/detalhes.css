@@ -332,6 +332,8 @@ footer {
         padding: 1vmax;
         margin: -7vmax 0 2vmax 0;
 
-        
+    }
+    footer{
+        font-size: 1vmax;
     }
 }
