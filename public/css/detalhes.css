@@ -310,6 +310,8 @@ footer {
     body main div.detalhesTenis{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     body main div.detalhesTenis div.container{
         justify-content: center;
