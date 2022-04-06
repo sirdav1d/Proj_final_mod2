@@ -90,7 +90,7 @@ header {
     background-color: white;
     color: var(--color-3);
     padding: 2vmax;
-    width: 100%;
+    width: 100px;
     border-radius: .5vmax;
     font-size: .9vmax;
     text-align: center;
