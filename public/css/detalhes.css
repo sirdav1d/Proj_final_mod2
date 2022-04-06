@@ -324,11 +324,12 @@ footer {
 
         
     }body main div.detalhesTenis div.container div.wrap{
-        width:30vmax;
+        width:40vmax;
         height: 15vmax;
         margin: 0 auto;
         padding: 2vmax;
         align-self: center;
+        justify-content: center;
     }
 
     body main div.detalhesTenis div.Textodetalhes{
@@ -336,7 +337,7 @@ footer {
         justify-content: center;
         align-items: center;
         padding: 1vmax;
-        margin: -7vmax 0 2vmax 0;
+        margin: -5vmax 0 2vmax 0;
         width: 100%;
     }
     footer{
