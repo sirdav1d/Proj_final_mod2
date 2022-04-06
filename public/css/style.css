@@ -77,7 +77,6 @@ header {
     text-decoration: none;
     margin-top: 5vmax;
     transition: 0.5s;
-    font-weight: bold;
     text-shadow: 1px 1px 2px var(--colorBlacksmooth);
     
 }
@@ -92,10 +91,9 @@ header {
     font-family: Montserrat;
     background-color: white;
     color: var(--color-3);
-    padding: 1vmax;
+    padding: 1.5vmax;
     border-radius: .5vmax;
-    width: 2.5vmax;
-    font-size: 1vmax;
+    font-size: .8vmax;
 }
 
 .cadastrar {
@@ -103,7 +101,7 @@ header {
     color: var(--colorWhite);
     text-shadow: 1px 1px 2px var(--colorBlacksmooth);
     font-size: 1.5vmax;
-    padding:2.5vmax 1vmax;
+    padding:2vmax 1vmax;
     background-color: var(--colorGreen);
     border-radius: .5vmax;
     margin-right: 6vmax;
