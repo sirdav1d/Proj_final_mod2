@@ -137,11 +137,11 @@ main section.card div#card{
 
 
 main section.card div#card img.tenis{
-    height: 4vmax;
+    height: 4.5vmax;
     transition: all .8s;
 }
 main section.card div#card img.tenis:hover{
-    height: 5.5vmax;
+    height: 6.5vmax;
     transform: translateY(-1vmax);
     
 }
@@ -158,7 +158,7 @@ main section.card div#rank img{
 }
 
 main section.card div#card p{
-    font-size: 1vmax;
+    font-size: 1.5vmax;
     text-align: center;
 }
 
