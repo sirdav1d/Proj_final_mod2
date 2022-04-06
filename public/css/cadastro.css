@@ -36,71 +36,90 @@ body {
 }
 
 header {
-    z-index: 9999;
+    z-index: 998;
 }
 
-nav {
+/*HEADER*/
+.img_logo_header {
+    margin-top: 5vmax;
+    width: 170px;
+    height: auto;
+}
+
+.header-bar,
+.navigation_header {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.header-bar {
     background-color: var(--colorBluedark);
-    height: 8rem;
+    justify-content: space-between;
+    padding: 0 4%;
+    height: 5.5em;
     box-shadow: 2px 2px 8px rgb(0, 0, 0),
-    inset 2px -2px 5px rgb(0, 0, 0);
-    
-
+        inset 2px -2px 5px rgb(0, 0, 0);
 }
 
-nav a {
-    font-family: Montserrat;
-    text-decoration: none;
-    background-color: rgb(255, 255, 255);
-    color: var(--colorBlacksmooth);
-    padding: 1rem;
-    margin: 1rem;
-    margin-top: 4rem;
-    border-radius: 0.2rem;
-    text-shadow: 1px 1px 2px var(--colorBlacksmooth);
-    transition: all .5s 1ms ease;
+.navigation_header {
+    gap: 2vmax;
+    z-index: 2;
+    margin-right: 5vmax;
+}
+
+.navigation_header a {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39),
-    inset 2px -2px 5px rgb(0, 0, 0);
-
+        inset 2px -2px 5px rgb(0, 0, 0);
+    text-decoration: none;
+    color: var(--colorBlacksmooth);
+    margin-top: 5vmax;
+    transition: 0.5s;
+    text-shadow: 1px 1px 2px var(--colorBlacksmooth);
 
 }
 
-
-nav a:hover {
-    transition: all .5s 1ms ease;
-    text-decoration: none;
+.navigation_header a:hover {
     background-color: var(--colorBluelight);
     color: var(--colorWhite);
+    transform: scale(1.1);
     font-weight: 900;
 }
 
-nav img {
-    width: 15%;
-    transform: translateY(25%);
-    padding-right: 2rem;
+.active {
+    font-family: Montserrat;
+    background-color: white;
+    color: var(--colorBlacksmooth);
+    padding: 20px;
+    width: 140px;
+    border-radius: .5vmax;
+    font-size: small;
+    text-align: center;
 }
 
-
-
-#btnCadastrar {
-    padding: 2rem;
-    margin: 2rem;
-    text-decoration: none;
+.cadastrar {
+    font-family: Montserrat;
+    color: var(--colorBlacksmooth);
+    text-shadow: 1px 1px 2px var(--colorBlacksmooth);
+    font-size: large;
+    padding: 40px 20px;
     background-color: var(--colorGreen);
-    color: var(--colorWhite);
-    border-radius: 0.7rem;
-    transform: translateY(25%);
+    border-radius: .5vmax;
+
 }
 
-#btnCadastrar:hover {
-    transition: 0.5s;
-    text-decoration: none;
+.cadastrar:hover {
     background-color: var(--colorBluelight);
     color: var(--colorBlacksmooth);
-    font-weight: 900;
+}
+
+.btn_icon_header {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
 }
 
 main a{
