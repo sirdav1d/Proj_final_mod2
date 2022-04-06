@@ -316,6 +316,7 @@ footer {
     body main div.detalhesTenis div.container{
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
     body main div.detalhesTenis div.Textodetalhes{
         display: flex;
@@ -323,6 +324,6 @@ footer {
         align-items: center;
         padding: 1vmax;
         margin-top: -5vmax;
-        width: 100%;
+        
     }
 }
