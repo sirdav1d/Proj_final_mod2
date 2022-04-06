@@ -337,13 +337,13 @@ footer {
 .s-imagens-1 img{
       height: 10vmax ;
       margin-bottom: 1.5vmax;
-      margin-right: 15vmax;
+      margin-left: -15vmax;
   }
 
 .s-imagens-2 img {
     height: 15vmax;
     margin-bottom: 1.5vmax;
-    margin-right: 30vmax;
+    margin-left: -30vmax;
 }
 
 .s-imagens-3 img {
