@@ -121,5 +121,6 @@ window.addEventListener('resize', function (event) {
 	}
 });
 
-
+toggleSidebar();
+closeSidebar();
 viewdrop();
