@@ -92,7 +92,7 @@ header {
     padding: 20px;
     width: 140px;
     border-radius: .5vmax;
-    font-size: larger;
+    font-size: medium;
     text-align: center;
 }
 
@@ -100,7 +100,7 @@ header {
     font-family: Montserrat;
     color: var(--colorBlacksmooth);
     text-shadow: 1px 1px 2px var(--colorBlacksmooth);
-    font-size: x-large;
+    font-size: large;
     padding:30px;
     background-color: var(--colorGreen);
     border-radius: .5vmax;
