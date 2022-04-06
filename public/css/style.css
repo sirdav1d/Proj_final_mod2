@@ -68,6 +68,7 @@ header {
 .navigation_header {
     gap: 2vmax;
     z-index: 2;
+    margin-right: 7vmax;
 }
 
 .navigation_header a {
@@ -84,27 +85,28 @@ header {
 .navigation_header a:hover {
     background-color: var(--colorBluelight);
     color: var(--colorWhite);
-    transform: scale(1.1)
+    transform: scale(1.1);
+    font-weight: 900;
 }
 
 .active {
     font-family: Montserrat;
     background-color: white;
     color: var(--color-3);
-    padding: 0 1.5vmax;
+    padding: 1vmax 1.5vmax;
     border-radius: .5vmax;
-    font-size: .8vmax;
+    font-size: 1vmax;
 }
 
 .cadastrar {
     font-family: Montserrat;
     color: var(--colorBlacksmooth);
     text-shadow: 1px 1px 2px var(--colorBlacksmooth);
-    font-size: 1.5vmax;
+    font-size: 1.2vmax;
     padding:2vmax 1vmax;
     background-color: var(--colorGreen);
     border-radius: .5vmax;
-    margin-right: 5vmax;
+    
 }
 
 .cadastrar:hover{
@@ -340,6 +342,7 @@ section.overlay div.modal div.modal-body div#btns-del a#no:hover {
 }
 
 .drop-btn{
+    background: none;
     transition: all .5s ease;
     position: relative;
 }
