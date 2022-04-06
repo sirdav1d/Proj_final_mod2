@@ -315,5 +315,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 1vmax;
+        margin-top: -5vmax;
     }
 }
