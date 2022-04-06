@@ -91,7 +91,7 @@ header {
     font-family: Montserrat;
     background-color: white;
     color: var(--color-3);
-    padding: 1.5vmax;
+    padding: 0 1.5vmax;
     border-radius: .5vmax;
     font-size: .8vmax;
 }
