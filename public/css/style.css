@@ -89,10 +89,10 @@ header {
     font-family: Montserrat;
     background-color: white;
     color: var(--color-3);
-    padding: .6vmax 3vmax;
+    padding: 2vmax;
     border-radius: .5vmax;
     font-size: .9vmax;
-    text-align: right;
+    text-align: center;
 }
 
 .cadastrar {
