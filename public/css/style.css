@@ -49,7 +49,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align: justify;
+    text-align: center;
 }
 
 .header-bar {
@@ -91,8 +91,8 @@ header {
     color: var(--color-3);
     padding: .6vmax 3vmax;
     border-radius: .5vmax;
-    font-size: 1vmax;
-    font-stretch: ultra-expanded;
+    font-size: .1vmax;
+    text-align: right;
 }
 
 .cadastrar {
