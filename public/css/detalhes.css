@@ -315,7 +315,8 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-top: 5vmax auto;
+        margin-top: 5vmax;
+        margin-right: 5vmax;
         padding: 0;
     }
     body main div.detalhesTenis div.container {
@@ -339,7 +340,7 @@ footer {
 
 .s-imagens-2 img {
     height: 15vmax;
-    margin-left: 19vmax;
+    margin-left: 20vmax;
     margin-bottom: 1.5vmax;
 }
 
