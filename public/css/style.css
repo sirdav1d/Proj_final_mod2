@@ -113,8 +113,8 @@ main section.card{
 }
 
 main section.card div#card{
-    height: 15vmax;
-    width: 12vmax;
+    height: 20vmax;
+    width: 15vmax;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -131,7 +131,7 @@ main section.card div#card{
     transition: all .8s ease;
     text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.63);
     font-weight: 400;
-    font-size: 1vmax;
+    font-size: 1.5vmax;
   
 }
 
