@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/sirdav1d/Proj_final_mod2#readme",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "devDependencies": {
+  "async": ">=2.6.4"
+}
   },
   "dependencies": {
     "dotenv": "^16.0.0",
