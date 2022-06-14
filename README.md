@@ -23,9 +23,6 @@ Respeitar o padrão MVC. (1,0)<br>
 Github organizado do projeto com licença, Read.me preenchido falando do projeto e Gitignore correto. (0,5)<br>
 Projeto postado no Heroku. (0,5)<br>
 
-#
-
-<h2>Essas são algumas imagens do nosso Projeto! Verifique em - https://meu-sneaker.herokuapp.com </h2>
 
 #
 
